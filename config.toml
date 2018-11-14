@@ -1,0 +1,88 @@
+baseurl = "http://www.example.com"
+title = "Spencer Greenhalgh"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Spencer Greenhalgh"
+    info = "Assistant Professor of Information Communication Technology, School of Information Science, University of Kentucky"
+    description = "Spencer Greenhalgh's personal website"
+    keywords = "blog,personal"
+    avatarurl = "images/SPG.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 1
+    url = "mailto:spencer.greenhalgh@uky.edu"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss fa-2x"
+    weight = 2
+    url = "/index.xml"
+[[params.social]]
+    name = "Google Scholar"
+    icon = "fas fa-graduation-cap fa-2x"
+    weight = 3
+    url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 4
+    url = "https://github.com/greenhas/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 5
+    url = "https://twitter.com/spgreenhalgh/"
+[[params.social]]
+    name = "Micro.blog"
+    icon = "fas fa-star fa-2x"
+    weight = 6
+    url = "https://micro.blog/spgreenhalgh/"
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    weight = 3
+    url = "https://keybase.io/spgreenhalgh"
+[[params.social]]
+    name = "Impodster Syndrome podcast"
+    icon = "fas fa-podcast fa-2x"
+    weight = 3
+    url = "http://impodstersyndrome.libsyn.com/"
+
+
+# Menu links
+
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url  = "/posts/"
