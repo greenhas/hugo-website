@@ -15,7 +15,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Spencer Greenhalgh"
-    info = "Assistant Professor of Information Communication Technology, School of Information Science, University of Kentucky"
+    info = "Assistant Professor of Information Communication Technology"
     description = "Spencer Greenhalgh's personal website"
     keywords = "blog,personal"
     avatarurl = "images/SPG_2.jpeg"
