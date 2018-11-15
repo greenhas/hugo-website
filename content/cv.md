@@ -42,8 +42,8 @@ li {
 <br>
 <h1>EDUCATION</h1>
 </center>
-<table style="border-spacing: 0px !important; border: 0px !important">
-	<tr style="border-spacing: 0px !important; border: 0px !important">
+<table>
+	<tr>
 		<td style="width:100px">2018</td>
 		<td style="width:240px">Michigan State University</td>
 		<td>Educational Psychology and Educational Technology</td>
