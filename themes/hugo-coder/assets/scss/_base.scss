@@ -45,7 +45,7 @@ h6 {
   font-family: $heading-font-family;
   font-weight: 700;
   color: $alt-fg-color;
-  margin: 6.4rem 0 3.2rem 0;
+  margin: 2.0rem 0 2.0rem 0;
 }
 
 h1 {
@@ -140,7 +140,7 @@ table {
   border-collapse: collapse;
 }
 table td, table th {
-  border: 2px solid $alt-fg-color;
+  border: 0px solid $alt-fg-color;
 }
 table tr:first-child th {
   border-top: 0;
