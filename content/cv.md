@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Cv"
 date: 2018-11-14T20:12:03-05:00
 draft: false
 ---
@@ -22,9 +22,19 @@ h2{
 	margin-left: 0pc;
 	font-size: 1em
 }
+<<<<<<< HEAD:content/cv.md
 table, th, td {
 	border-spacing: 0px;
 	border: 0px;
+=======
+table {
+	margin-left: 0pc;
+	margin-right: 0pc;
+	border: 0px;
+	}	
+td {
+	vertical-align: top;
+>>>>>>> parent of 5dc2fd3... Update cv.html:content/cv.html
 }
 li {
 	margin-left: 0pc;
