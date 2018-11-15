@@ -139,6 +139,9 @@ th, td {
 table {
   border-collapse: collapse;
 }
+table td, table th {
+  border: 2px solid $alt-fg-color;
+}
 table tr:first-child th {
   border-top: 0;
 }
