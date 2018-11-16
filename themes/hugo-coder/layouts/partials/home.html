@@ -9,14 +9,14 @@
     <ul>
       {{ range sort .}}
         {{ if .icon }}
-          <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+          <li><a href="{{ .url }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
         {{ else }}
-          <li><a href="{{ .url }}">{{ .name }}</a></li>
+          <li><a href="{{ .url }}" target="_blank">{{ .name }}</a></li>
         {{ end }}
       {{ end }}
-    <p style="text-align:left">My name is Spencer Greenhalgh, and I am an assistant professor of Information Communication Technology in the School of Information Science at the University of Kentucky. My background is in education—I earned a BA in French Teaching from Brigham Young University and a PhD in Educational Psychology and Educational Technology before joining the faculty at UK.</p>
-    <p style="text-align:left">I focus my research on how digital technologies allow for the creation of both new kinds of learning (and other) communities and new kinds of research methods for studying those communities. The Internet is increasingly allowing learners to create social groups that challenge existing conceptions of how learning is organized. Furthermore, because these communities exist in digital spaces, they provide new methodological options for researchers.</p>
-    <p style="text-align:left">For example, in much of my work, I have developed automated methods to collect data from Twitter hashtags used by teachers for professional learning and then identified the quantitative and qualitative methods best suited to understand these communities. These methods have allowed me to describe the ways in which these hashtag-based groups challenge the typical conceptions of what communities look like.</p>
+    <p style="text-align:left">{{ .Site.Params.intro_para_1 }}</p>
+    <p style="text-align:left">{{ .Site.Params.intro_para_2 }}</p>
+    <p style="text-align:left">{{ .Site.Params.intro_para_3 }}</p>
     </ul>
     {{ end }}
   </div>
