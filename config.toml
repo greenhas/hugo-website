@@ -19,12 +19,6 @@ disqusShortname = "yourdiscussshortname"
     description = "Spencer Greenhalgh's personal website"
     keywords = "blog,personal"
     avatarurl = "images/SPG_2.jpeg"
-    
-    intro_para_1 = "My name is Spencer Greenhalgh, and I am an assistant professor of Information Communication Technology in the School of Information Science at the University of Kentucky. My background is in education—I earned a BA in French Teaching from Brigham Young University and a PhD in Educational Psychology and Educational Technology before joining the faculty at UK."
-    
-    intro_para_2 = "I focus my research on how digital technologies allow for the creation of both new kinds of learning (and other) communities and new kinds of research methods for studying those communities. The Internet is increasingly allowing learners to create social groups that challenge existing conceptions of how learning is organized. Furthermore, because these communities exist in digital spaces, they provide new methodological options for researchers."
-    
-    intro_para_3 = "For example, in much of my work, I have developed automated methods to collect data from Twitter hashtags used by teachers for professional learning and then identified the quantitative and qualitative methods best suited to understand these communities. These methods have allowed me to describe the ways in which these hashtag-based groups challenge the typical conceptions of what communities look like."
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
