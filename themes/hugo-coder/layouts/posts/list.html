@@ -4,7 +4,7 @@
 {{ define "content" }}
   <section class="container list">
     <h1 class="title">{{ .Title }}</h1>
-    <p>test</p>
+    <p>This page is the home to both long(er)-form blog posts and to microposts (~280 characters) that get forwarded to my <a href="https://twitter.com/spgreenhalgh">Twitter</a> and <a href="https://micro.blog/spgreenhalgh">Micro.blog</a> accounts. If the title of a post looks like it could be a standalone tweet, chances are that it's a micropost, and clicking on it won't get you any new information. Shorter, more title-like posts, though, are worth clicking on to read the whole thing.</p>
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
