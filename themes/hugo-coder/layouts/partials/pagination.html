@@ -4,6 +4,7 @@
 {{ $lower_limit := (add $adjacent_links 1) }}
 {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
 {{ if gt $paginator.TotalPages 1 }}
+<p>test</p>
 <ul class="pagination">
   {{ if $paginator.HasPrev }}
     {{ if ne $paginator.PageNumber 1 }}
