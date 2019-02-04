@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-02-04T16:00:00-05:00
+date = 2019-02-04T15:50:00-05:00
 title = "The French language as technology"
 slug = "french-language-as-technology" 
 tags = ["educational technology", "French", "technology"]
