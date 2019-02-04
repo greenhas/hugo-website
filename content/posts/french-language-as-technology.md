@@ -8,15 +8,15 @@ categories = ["macro"]
 +++
 One of the most influential things I read in grad school was Raymond S. Nickerson's [Technology and Cognition Amplification](https://books.google.com/books?hl=en&lr=&id=NzoaEVBuipwC&oi=fnd&pg=PA3&dq=technology+and+cognition+amplification&ots=NodhtDWYZ8&sig=OK2yfTk9EV8V-9KlWZcqxnaC9bc#v=onepage&q=technology%20and%20cognition%20amplification&f=false), which defined technology broadly as:
 	
-	> the building of artifacts or procedures—tools—to help people accomplish their goals
+> the building of artifacts or procedures—tools—to help people accomplish their goals
 	
 and, later in the same paragraph, as:
 	
-	> amplifiers of human capabilities
+> amplifiers of human capabilities
 	
 Nickerson's chapter went on to describe concepts like mathematical notation and even language as "cognitive technologies," the ancestors of the technologies that I now study (e.g., games and social media). Although I had begun a PhD in educational technology with a great deal of excitement to study digital tools in educational contexts, this chapter was helpful (along with some other readings) for helping me situate "edtech" within a broader context. Indeed, as a former French teacher and continuing French student, the idea of language as the most basic of technologies really resonated with me. As I wrote last June in a reflection for Michigan State's Digital Humanities program:
 	
-	> As I began to understand "technology" as 1) more than just "digital" and 2) socially- and culturally-mediated, I realized that I could see *the French language* as a technology in the same way that I had been seeing *Twitter* as a technology and that my interest in both was largely an interest in the social and cultural contexts that surrounded them and shaped their use. 
+> As I began to understand "technology" as 1) more than just "digital" and 2) socially- and culturally-mediated, I realized that I could see *the French language* as a technology in the same way that I had been seeing *Twitter* as a technology and that my interest in both was largely an interest in the social and cultural contexts that surrounded them and shaped their use. 
 	
 This weekend, I began Jean-Benoît Nadeau and Julie Barlow's *[The Story of French](https://nadeaubarlow.com/the-story-of-french/)*, which, to my delight, had some passages that furthered the connection between these two passion: 
 
@@ -24,6 +24,6 @@ This weekend, I began Jean-Benoît Nadeau and Julie Barlow's *[The Story of Fren
 
 Consider also this more cynical parallel:
 	
-	> The lettered class promoted complicated spellings as a way of holding on to power; by making it hard to learn French, they made it harder for anyone outside their class to enter the circles of power. 
+> The lettered class promoted complicated spellings as a way of holding on to power; by making it hard to learn French, they made it harder for anyone outside their class to enter the circles of power. 
 	
 I conclude by admitting that I'm posting this partly for my own benefit—I frequently bring up "language as technology" with students when I want to help them see technology as more than just "what's new and digital," and I'm excited to have these new paragraphs to draw on to do so.
