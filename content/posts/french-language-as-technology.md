@@ -3,7 +3,7 @@ draft = false
 date = 2019-02-04T15:50:00-05:00
 title = "The French language as technology"
 slug = "french-language-as-technology" 
-tags = ["educational technology", "French", "technology"]
+tags = ["educational technology", "French", "technology", "the story of French"]
 categories = ["macro"]
 +++
 One of the most influential things I read in grad school was Raymond S. Nickerson's [Technology and Cognition Amplification](https://books.google.com/books?hl=en&lr=&id=NzoaEVBuipwC&oi=fnd&pg=PA3&dq=technology+and+cognition+amplification&ots=NodhtDWYZ8&sig=OK2yfTk9EV8V-9KlWZcqxnaC9bc#v=onepage&q=technology%20and%20cognition%20amplification&f=false), which defined technology broadly as:
