@@ -1,5 +1,5 @@
 baseurl = "https://spencergreenhalgh.com/"
-title = "Spencer Greenhalgh"
+title = "Spencer Greenhalgh, PhD"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Spencer Greenhalgh"
+    author = "Spencer Greenhalgh, PhD"
     info = "Assistant Professor of Information Communication Technology"
     description = "Spencer Greenhalgh's personal website"
     keywords = "blog,personal"
