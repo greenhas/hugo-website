@@ -1,0 +1,1 @@
++++draft = falsedate = 2019-03-04T15:43:54-05:00title = "Haven’t made as much writing progress today as I’d like, but today’s progress has validated both 1
