@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-04-03T10:9:00-05:00
+date = 2019-04-03T13:55:00-05:00
 title = "🔗 Ethical Alternatives & Resources [via Lifehacker]"
 slug = "ethical-alternatives" 
 tags = ["ethics", "technology","links"]
