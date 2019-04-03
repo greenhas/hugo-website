@@ -1,9 +1,9 @@
 +++ 
 draft = false
-date = 2019-04-03T16:15:00-05:00
-title = "Ethical Alternatives and Resources website (via Lifehacker)"
-slug = "ethical-alternatives" 
-tags = ["ethics", "technology", "links"]
+date = 2019-04-03T16:20:00-05:00
+title = "Ethical Alternatives to Mainstream Tech Platforms"
+slug = "ethical-tech-alternatives" 
+tags = ["ethics", "technology"]
 categories = ["macro"]
 +++
 Thanks to a [Lifehacker article](https://lifehacker.com/find-ethical-open-source-alternatives-to-almost-every-a-1833746899), I recently discovered ethical.net and its list of [alternatives and resources](https://ethical.net/resources/) to popular tech services. 
