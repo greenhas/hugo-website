@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-04-03T16:20:00-05:00
+date = 2019-04-03T22:00:00-04:00
 title = "Ethical Alternatives to Mainstream Tech Platforms"
 slug = "ethical-tech-alternatives" 
 tags = ["ethics", "technology"]
