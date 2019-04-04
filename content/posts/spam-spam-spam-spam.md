@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2019-04-04T10:15:00-04:00
-title = "'New Presentation: Implications of Spam for Educational Twitter Researchers"
+title = "New Presentation: Implications of Spam for Educational Twitter Researchers"
 slug = "spam-spam-spam-spam" 
 tags = ["social media", "Twitter", "presentations", "research", "research methods", "spam", "communities", "spaces"]
 categories = ["macro"]
