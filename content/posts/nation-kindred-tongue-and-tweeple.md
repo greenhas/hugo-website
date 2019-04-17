@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-04-17T11:15:00-04:00
+date = 2019-04-17T11:20:00-04:00
 title = "New Presentation: Every Nation, Kindred, Tongue, and 'Tweeple""
 slug = "nation-kindred-tongue-tweeple" 
 tags = ["social media", "Twitter", "presentations", "research", "Mormon Twitter","technological determinism", "imposter syndrome"]
