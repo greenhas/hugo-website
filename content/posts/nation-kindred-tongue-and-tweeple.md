@@ -1,12 +1,11 @@
 +++ 
 draft = false
 date = 2019-04-17T11:20:00-04:00
-title = "New Presentation: Every Nation, Kindred, Tongue, and 'Tweeple""
+title = "New Presentation: Every Nation, Kindred, Tongue, and 'Tweeple'"
 slug = "nation-kindred-tongue-tweeple" 
 tags = ["social media", "Twitter", "presentations", "research", "Mormon Twitter", "technological determinism", "imposter syndrome"]
 categories = ["macro"]
 +++
-
 During the last weekend in March, I had the privilege to attend the *[Decentered Mormonism](https://mormonstudies.cgu.edu/wp-content/uploads/sites/3/2019/03/progr_mormonisme_decentre.pdf)* conference hosted by l'Université de Bordeaux-Montaigne, thanks in part to a Global Mormon Studies grant from [Claremont Graduate University](https://mormonstudies.cgu.edu/global/). So, what was an educational technology researcher affiliated with a School of Information Science doing at a Mormon Studies conference? 
 
 Presenting social media research, naturally. As readers of my previous blog may recall, my research into teacher-focused Twitter hashtags has occasionally led me to explore #ldsconf, the hashtag (~previously) associated with the General Conference of the Church of Jesus Christ of Latter-day Saints (hereafter "the Church" for the sake of brevity). With the help of my longtime Twitter colleagues [Matt Koehler](http://www.matt-koehler.com/) and [Bret Staudt Willet](http://bretsw.com/), I've started turning those occasional explorations into some more systematic research. At the *Decentered Mormonism* conference, we—in keeping with the conference's theme—used some of the Twitter geolocation techniques that we'd compared in [a previous study](https://dx.doi.org/10.1007/s11528-018-0313-6) to specifically identify #ldsconf participants who identified as being from outside of the United States. There's a tension in the Church between its increasing international expansion and its deep American roots (hence the reasoning behind the conference), but Twitter theoretically provides a way for "decentered" Church members (i.e., those outside the United States) to participate in conversations and even to "decenter" the conversation (i.e., by working to change Church cultures, attitudes, and teachings. However, as George Veletsianos [has written](https://dx.doi.org//10.1007/s11528-016-0143-3) on the subject of seeing Twitter as socially constructed:
