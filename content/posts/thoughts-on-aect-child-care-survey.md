@@ -6,7 +6,7 @@ slug = "thoughts-on-aect-child-care-survey"
 tags = ["AECT", "academic parenting", "survey design", "instrument design"]
 categories = ["macro"]
 +++
-Earlier today, I was excited to see that the Association for Educational Communications and Technology—at this point, my home professional organization—had sent out a survey in conjunction with their "considering the viability of contracting with child care providers within the cities of our future conventions in order to provide child care services in future convention hotels." After taking a look at the survey, though, I'm finding it somewhat disappointing—to the extent that I'm choosing not to fill it out. I've pasted a screenshot of the survey below, 
+Earlier today, I was excited to see that the Association for Educational Communications and Technology—at this point, my home professional organization—had sent out a survey in conjunction with their "considering the viability of contracting with child care providers within the cities of our future conventions in order to provide child care services in future convention hotels." After taking a look at the survey, though, I'm finding it somewhat disappointing—to the extent that I'm choosing not to fill it out. I've pasted a screenshot of the survey below, after which I'll explain my thinking:
 
 ![AECT child care survey](https://spencergreenhalgh.com/AECT-child-care-survey.png)
 
