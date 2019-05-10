@@ -14,7 +14,7 @@ The email was nice not only because it showed that someone was actually reading 
 One of the things I'm trying to work on as a new assistant professor is to standardize and organize my work so that, as much as possible:
 
 - my efforts are organized around discrete projects (which is inspired by David Allen's [**Getting Things Done**](https://gettingthingsdone.com/), people who use GTD, and the productivity software I use—which is frequently also inspired by GTD),
-- those projects are guided by checklists so that I don't forget any important stepts (which is inspired by Atul Gawande's [*The Checklist Manifesto*](https://en.wikipedia.org/wiki/The_Checklist_Manifesto), 
+- those projects are guided by checklists so that I don't forget any important stepts (which is inspired by Atul Gawande's [*The Checklist Manifesto*](https://en.wikipedia.org/wiki/The_Checklist_Manifesto)), 
 - each of those projects has a clear place in my had drive/cloud storage (which is based on a tweet I saw once but can't find right now), and 
 -  it's easy to review the status of and next steps for any particular project (which is another GTD idea). 
 
