@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-05-10T15:00:00-04:00
+date = 2019-05-10T15:15:00-04:00
 title = "New GitHub repository: Alfred Academic Workflows"
 slug = "alfred-academic-workflows" 
 tags = ["project thinking", "Alfred 3", "Things 3", "Alfred 4", "GitHub", "peer review", "Getting Things Done", "checklist thinking", "productivity", "workflow"]
