@@ -7,7 +7,7 @@ tags = ["project thinking", "Alfred 3", "Things 3", "Alfred 4", "GitHub", "peer 
 categories = ["macro"]
 +++
 
-I recently received a very kind email from someone who was looking for one of the posts on my old WordPress blog that detailed an [Alfred 3](https://www.alfredapp.com/) workflow I'd written to generate a standard peer review checklist (the academic/manuscript kind, not the student/course project kind) based on Snyder's](https://twitter.com/DressageProf) (2018) [**How to become a more effective reviewer**](https://dx.doi.org/10.1177/0016986218754495). 
+I recently received a very kind email from someone who was looking for one of the posts on my old WordPress blog that detailed an [Alfred 3](https://www.alfredapp.com/) workflow I'd written to generate a standard peer review checklist (the academic/manuscript kind, not the student/course project kind) based on [Snyder's](https://twitter.com/DressageProf) (2018) [**How to become a more effective reviewer**](https://dx.doi.org/10.1177/0016986218754495). 
 
 The email was nice not only because it showed that someone was actually reading my old blog but also because it was the kick in the pants I needed to upload that Alfred workflow and several others to GitHub, which I'd been meaning to do for a while. This is a pretty niche GitHub repository, since it assumes use of Alfred (and frequently also Things 3), but it's available [here](https://github.com/greenhas/academic-alfred-workflows) if you're interested.
 
