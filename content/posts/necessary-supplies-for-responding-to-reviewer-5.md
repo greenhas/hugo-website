@@ -7,7 +7,7 @@ tags = ["photos", "writing", "workflow", "white noise", "research","office"]
 categories = ["macro"]
 +++
 
-![A picture of my desk as I work on manuscript revisions](https://spencergreenhalgh.com/supplies-for-responding-to-reviewer-5.jpg), 
+![A picture of my desk as I work on manuscript revisions](https://spencergreenhalgh.com/supplies-for-responding-to-reviewer-5.jpg)
 
 - plenty of desk space (I [nearly turned down the chance](http://impodstersyndrome.libsyn.com/episode-10-new-digs-and-should-i-go-to-this-conference) to get a windowed office next year because I'd lose this desk space)
 - ~60 pages of printed manuscript, tables, figures, and reviewer comments for fine-grained editing, making sure my in-text citations match my ref list (which is the stack of papers fanned out across the top), checking figures and tables, and proofreading
