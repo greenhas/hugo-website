@@ -6,6 +6,9 @@ slug = "necessary-supplies-for-responding-to-reviewer-5"
 tags = ["photos", "writing", "workflow", "white noise", "research","office"]
 categories = ["macro"]
 +++
+img {
+    image-orientation: from-image;
+}
 
 ![A picture of my desk as I work on manuscript revisions](https://spencergreenhalgh.com/supplies-for-responding-to-reviewer-5.jpg)
 
