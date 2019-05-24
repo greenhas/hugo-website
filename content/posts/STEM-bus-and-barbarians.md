@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2019-05-24T11:45:00-04:00
+date = 2019-05-24T11:50:00-04:00
 title = "STEM Bus and Barbarians"
 slug = "STEM-bus-and-barbarians" 
 tags = ["language education" "parenting", "STEM", "humanities", "science]
@@ -26,3 +26,5 @@ and sees STEM as:
 > not just a fancy acronym that is meant to be taught independently from all other disciplines ... It is a mindset – a way to see the world and solve the problems we may face in any area.
 
 This approach to STEM risks aggravating the barbarian problem by making STEM a default way of operating in schools and crowding out other important mindsets. I'm waiting for the day that FCPS secures the grant money for a humanities bus that introduces students at local events to people, languages, and cultures so that they learn to appreciate these things at a young age. I'm waiting for the day that FCPS asks biology and computer science teachers to see their various subjects through social and cultural lenses. I'm waiting for the day that FCPS sees the humanities not just as core classes that students have to get through but as "a way to see the world and solve problems we may face." 
+
+And, in the meantime, I'm going to have to figure out how to invite my daughter to appreciate French a little bit more.
