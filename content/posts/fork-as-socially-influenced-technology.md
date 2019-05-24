@@ -1,9 +1,9 @@
 +++
 draft = false
 date = 2019-05-24T10:39:00-04:00
-title = "The fork as a socially-mediated technology"
-slug = "fork-as-socially-mediated-technology" 
-tags = ["Day One", "journaling", "parenting", "socially-mediated", "technology", "social phenomena", "social constructs"]
+title = "The fork as a socially-influenced technology"
+slug = "fork-as-socially-influenced-technology" 
+tags = ["Day One", "journaling", "parenting", "technology", "social phenomena", "social constructs"]
 categories = ["macro"]
 +++
 
