@@ -1,4 +1,4 @@
-+++ 
++++
 draft = false
 date = 2019-05-15T14:35:00-04:00
 title = "Supplies Necessary for Effectively Responding to Reviewer #5"
@@ -20,5 +20,3 @@ img {
 - a laptop playing GoPro footage uploaded to YouTube from a train traveling from Zurich to Geneva at full screen, because it provides a nice view and good white noise (and, frankly, because I'd rather be there instead)
 - all of the inspirational pictures and other mementos that I can find (and have previously put up in my office, because the editor wants this back tonight, so I don't have time to put up new ones)
 - a water bottle
-
-
