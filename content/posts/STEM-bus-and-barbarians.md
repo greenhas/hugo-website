@@ -3,7 +3,7 @@ draft = false
 date = 2019-05-24T11:50:00-04:00
 title = "STEM Bus and Barbarians"
 slug = "STEM-bus-and-barbarians" 
-tags = ["language education" "parenting", "STEM", "humanities", "science]
+tags = ["language education", "parenting", "STEM", "humanities", "science]
 categories = ["macro"]
 +++
 Last weekend, I went with my family to a local YMCA for their "Family Field Day." While the bounce houses were probably the highlight of the afternoon, my daughter also appreciated visiting Fayette County Public Schools' [STEM Bus](https://www.fcps.net/site/default.aspx?PageType=3&DomainID=4&ModuleInstanceID=710&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=32184&PageID=1), which included an inflatable dinosaur, several sets of VR goggles, robots, and plenty of other fun stuff. I'm glad that FCPS is making an effort to make STEM accessible to kids, even if they're as young as my daughter—as she gets older, I want to make sure that she knows that the STEM fields are viable options for her academic and career choices, and I'm very happy that FCPS is going to back me up on this. 
