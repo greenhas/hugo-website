@@ -3,7 +3,7 @@ draft = false
 date = 2019-05-29T15:31:00-04:00
 title = "Twitter and learning"
 slug = "Twitter-and-learning" 
-tags = ["Twitter", "learning", "sociocultural theories of education", "informal learning", "TPACK", "educational technology", "James Paul Gee", "problem of content", "Reply All", "semiotic domain"]
+tags = ["Twitter", "learning", "sociocultural theories of education", "informal learning", "TPACK", "educational technology", "James Paul Gee", "problem of content", "Reply All", "semiotic domain", "democracy and education"]
 categories = ["macro"]
 +++
 I recently spotted [a tweet](https://twitter.com/leecrawfurd/status/1133301842593632256) that links to [a study](https://dipartimenti.unicatt.it/economia-finanza-def081.pdf) with the comment that "Encouraging kids to use twitter [sic] apparently reduces learning." 
