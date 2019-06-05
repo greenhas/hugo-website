@@ -43,7 +43,7 @@ pygmentscodefencesguesssyntax = true
     name = "RSS"
     icon = "fas fa-rss fa-2x"
     weight = 2
-    url = "/index.xml"
+    url = "/categories/macro/index.xml"
 [[params.social]]
     name = "Google Scholar"
     icon = "fas fa-graduation-cap fa-2x"
