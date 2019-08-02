@@ -84,7 +84,7 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
     name = "About"
     weight = 1
-    url = "/about.md"
+    url = "/about/"
 [[menu.main]]
     name = "CV"
     weight = 2
