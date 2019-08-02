@@ -40,49 +40,56 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "mailto:spencer.greenhalgh@uky.edu"
 [[params.social]]
+    name = "University of Kentucky homepage"
+    icon = "fas fa-university fa-2x"
+    weight = 2
+    url = "http://ci.uky.edu/sis/users/spencer-greenhalgh"
+[[params.social]]
     name = "RSS"
     icon = "fas fa-rss fa-2x"
-    weight = 2
+    weight = 3
     url = "/categories/macro/index.xml"
 [[params.social]]
     name = "Google Scholar"
     icon = "fas fa-graduation-cap fa-2x"
-    weight = 3
+    weight = 4
     url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 4
+    weight = 5
     url = "https://github.com/greenhas/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 5
+    weight = 6
     url = "https://twitter.com/spgreenhalgh/"
 [[params.social]]
     name = "Micro.blog"
     icon = "fas fa-star fa-2x"
-    weight = 6
+    weight = 7
     url = "https://micro.blog/spgreenhalgh/"
 [[params.social]]
     name = "Keybase"
     icon = "fab fa-keybase fa-2x"
-    weight = 3
+    weight = 8
     url = "https://keybase.io/spgreenhalgh"
 [[params.social]]
     name = "Impodster Syndrome podcast"
     icon = "fas fa-podcast fa-2x"
-    weight = 3
+    weight = 9
     url = "http://impodstersyndrome.libsyn.com/"
 
-
 # Menu links
-
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about.md"
 [[menu.main]]
     name = "CV"
-    weight = 1
+    weight = 2
     url = "/cv.html"
 [[menu.main]]
    name = "Blog(s)"
-   weight = 2
+   weight = 3
    url  = "/posts/"
