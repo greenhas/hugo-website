@@ -4,6 +4,18 @@ date: 2019-08-02T09:00:00-04:00
 draft: false
 ---
 
+# About Me
+
+You can learn more about my work on my [CV](https://spencergreenhalgh.com/cv/), and more about my "origin story" further on down this page. I am active in the Association for Educational Communications and Technology. 
+
+Outside of work, I enjoy bike commuting, running (when biking isn't enough), going to the library (I read a lot of books and comics), playing games (both analog and digital), and—most of all—spending time with my wife and daughter.
+
+# About My Web Presence
+
+This website is an effort to keep my web presence under my control as much as possible. I'm a big fan of WordPress, but eventually decided I could learn more, pay less, and better understand how my data was organized by running this as a static site with the help of [Hugo](https://gohugo.io/), [Netlify](https://www.netlify.com/), and [Hover](https://www.hover.com). My [home page](https://spencergreenhalgh.com/) links to some of the other places where I'm active on the web.
+
+Some notes about those other places: After months and months of hemming and hawing, I finally ditched Facebook in December 2018 (and am admittedly surprised by how little I miss it). Twitter is too professionally valuable to me to give up on, but I regularly use [Jumbo Privacy](https://www.jumboprivacy.com/) to purge old tweets, and try to do most of my microblogging by forwarding [microposts from this website](https://spencergreenhalgh.com/categories/micro/) to Twitter and to [Micro.blog](https://micro.blog/), a friendly, RSS-based social media platform that I would love to see get more traction among academics; you can also subscribe directly to my microposts through [this RSS feed](https://spencergreenhalgh.com/categories/micro/). I'm also trying to keep up [longer-form blogging](https://spencergreenhalgh.com/categories/macro/) to share important ideas—these posts also have their own RSS feed [here](https://spencergreenhalgh.com/categories/macro/index.xml).
+
 # My Origin Story
 
 I grew up (mostly) in [Florence, Kentucky](https://en.wikipedia.org/wiki/Florence,_Kentucky) and attended [Boone County High School](https://www.boone.k12.ky.us/1/Home), where I participated in [speech and debate](https://khssl.org/), competed in the Kentucky [Governor's Cup](https://www.kaac.com/governors-cup), developed a lifelong love for the French language, and played a **lot** of the Star Wars Roleplaying Game. 
@@ -14,8 +26,5 @@ After a brief stint as a French, debate, and keyboarding teacher in Utah, I ente
 
 Two months later, I began my appointment at the University of Kentucky's [School of Information Science](http://ci.uky.edu/sis/), which both completes the circle and provides exciting new opportunities to branch out. Being at UK means getting to come back home to continue the research and teaching that I've been so passionate about; it also means new opportunities to work with researchers from fields that are new to me (like information science and instructional communication) and add new perspectives to my work. This is a perfect place for my career to develop and grow!
 
-# About Me
 
-You can learn more about my work on my [CV](https://spencergreenhalgh.com/cv/). 
 
-# About This Website
