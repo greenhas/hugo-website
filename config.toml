@@ -1,6 +1,6 @@
 baseurl = "https://spencergreenhalgh.com/"
 title = "Spencer Greenhalgh, PhD"
-theme = "hugo-coder-2"
+theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
