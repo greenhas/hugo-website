@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2019-09-18T13:50:00-04:00
+date = 2019-09-18T12:45:00-04:00
 title = "New Publication: The Fun of Its Parts"
 slug = "fun-of-its-parts" 
 tags = ["research", "digital methods", "games", "games and learning"]
