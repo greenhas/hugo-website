@@ -2,7 +2,7 @@
 draft = false
 date = 2019-10-04T16:10:00-04:00
 title = "Filter Bubble Teaching Activities"
-slug = "human-search-engine" 
+slug = "filter-bubble-teaching-activities" 
 tags = ["teaching", "filter bubble", "algorithms", "ICT 200", "data detox"]
 categories = ["macro"]
 +++
