@@ -21,13 +21,13 @@ While it is not officially part of this activity, I suggest that you take some e
 
 ### Google
 
-Log into the following website (with whatever Google account you use the most): https://adssettings.google.com/authenticated (Links to an external site.)
+Log into the following website (with whatever Google account you use the most): https://adssettings.google.com/authenticated 
 
 As long as Ad personalization is ON at the top of the screen, you should be able to scroll down and see what factors influence the ads that you see on Google services.
 
 ### Twitter
 
-Log into the following website: https://twitter.com/settings/your_twitter_data/twitter_interests (Links to an external site.)
+Log into the following website: https://twitter.com/settings/your_twitter_data/twitter_interests 
 
 Click on the first two menu items to see what interests Twitter and its business partners think you have. Click on the third item to request a list of advertisers that have taken an interest in you (and for what reasons why).
 
