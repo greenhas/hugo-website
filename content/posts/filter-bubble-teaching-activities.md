@@ -43,7 +43,7 @@ Log into Instagram, then click on: Settings → Ads → Ad Activity
 
 This should give you an indication of what kind of ad activity you receive on Instagram.
 
-###Other
+### Other
 
 If you know how to find this information on another website, feel free to do so!
 
