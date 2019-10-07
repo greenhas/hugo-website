@@ -1,0 +1,1 @@
++++draft = falsedate = 2019-09-18T09:51:43-04:00title = "Completed a flat-tire-halfway-to-campus bike commuter’s biathlon today."slug = "2019-09-18-Completed-a"tags = []categories = ["micro"]+++Completed a flat-tire-halfway-to-campus bike commuter’s biathlon today.
