@@ -3,7 +3,7 @@ draft = false
 date = 2019-04-17T11:20:00-04:00
 title = "Report from AECT 2019"
 slug = "aect-2019" 
-tags = ["AECT", "Twitter", "presentations", "research", "conferences", "R", "workshops"]
+tags = ["AECT", "Twitter", "presentations", "research", "conferences", "R", "workshops", "Mormon Studies"]
 categories = ["macro"]
 +++
 
