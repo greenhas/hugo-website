@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-12-4T10:00:00-04:00
+date = 2019-12-04T10:00:00-04:00
 title = "New Publication: Spam and Educators' Twitter Use"
 slug = "spam-publication" 
 tags = ["social media", "Twitter", "publications", "research", "research methods", "spam", "communities", "spaces"]
