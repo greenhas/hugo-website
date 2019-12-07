@@ -3,7 +3,7 @@ draft = false
 date = 2019-04-17T11:20:00-04:00
 title = "New Presentation: Every Nation, Kindred, Tongue, and Tweeple"
 slug = "nation-kindred-tongue-tweeple" 
-tags = ["social media", "Twitter", "presentations", "research", "Mormon Twitter", "technological determinism", "imposter syndrome"]
+tags = ["social media", "Twitter", "presentations", "research", "Mormon Twitter", "technological determinism", "imposter syndrome", "Mormon Studies"]
 categories = ["macro"]
 +++
 During the last weekend in March, I had the privilege to attend the *[Decentered Mormonism](https://mormonstudies.cgu.edu/wp-content/uploads/sites/3/2019/03/progr_mormonisme_decentre.pdf)* conference hosted by l'Université de Bordeaux-Montaigne, thanks in part to a Global Mormon Studies grant from [Claremont Graduate University](https://mormonstudies.cgu.edu/global/). So, what was an educational technology researcher affiliated with a School of Information Science doing at a Mormon Studies conference? 
