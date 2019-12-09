@@ -2,7 +2,7 @@
 draft = false
 date = 2019-12-09T10:10:00-04:00
 title = "New Publication: Approaches to Mormon identity and practice in the #ldsconf Twitter hashtag"
-slug = "spam-publication" 
+slug = "Mormon-identity-and-practice-publication" 
 tags = ["social media", "Twitter", "publications", "research", "Mormon Studies", "Mormon Twitter"]
 categories = ["macro"]
 +++
