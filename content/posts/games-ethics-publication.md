@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-01-27T12:55:00-04:00
+date = 2020-01-27T12:55:00-04:00
 title = "New Publication: Influences of Game Design and Context on Learners' Trying on Moral Identities"
 slug = "games-ethics-publication" 
 tags = ["publications", "research", "games", "games and learning", "ethics education", "ethics"]
