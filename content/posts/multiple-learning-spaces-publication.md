@@ -1,8 +1,8 @@
 +++ 
 draft = false
 date = 2020-01-27T12:55:00-04:00
-title = "New Publication: Influences of Game Design and Context on Learners' Trying on Moral Identities"
-slug = "games-ethics-publication" 
+title = "New Publication: Identifying Multiple Learning Spaces within a Single Teacher-focused Twitter Hashtag"
+slug = "multiple-learning-spaces-publication" 
 tags = ["publications", "research", "social media", "Twitter", "affinity spaces", "spaces", "communities", "Twitter chats", "literacies"]
 categories = ["macro"]
 +++
