@@ -1,0 +1,24 @@
++++ 
+draft = false
+date = 2019-01-27T12:55:00-04:00
+title = "New Publication: Influences of Game Design and Context on Learners' Trying on Moral Identities"
+slug = "games-ethics-publication" 
+tags = ["publications", "research", "social media", "Twitter", "affinity spaces", "spaces", "communities", "Twitter chats", "literacies"]
+categories = ["macro"]
++++
+
+This weekend has been unexpectedly fruitful in terms of publications, so here's another article announcement!
+
+For the past five years, I've spent a lot of time thinking about Twitter hashtags as social spaces and learning spaces. An underlying assumption of nearly all of my social media research has been that a hashtag serves as a space for gathering people together and that it is, therefore, a practically-handy and conceptually-sound way of collecting data on, delimiting, and analyzing a phenomenon. Early on, though, my colleague [Josh Rosenberg](https://joshuamrosenberg.com/) became interested in the common practice of "Twitter chats" in teacher-focused hashtags. Are there demonstrable differences in these synchronous uses of hashtags and the asynchronous activity that happens outside of chats? 
+
+After a few years of exploring this idea, we (and our colleagues [Bret Staudt Willet](http://bretsw.com/), [Matt Koehler](http://www.matt-koehler.com/), and [Mete Akcaoglu](https://coe.georgiasouthern.edu/directory/dr-mete-akcaoglu/)) have published an article asserting that in some cases, a Twitter hashtag may be better thought of as containing multiple distinct spaces within it and that treating the entire hashtag as a unified space glosses over some of the interesting differences that may exist within it. We've always realized this on a certain level, but it's been exciting to demonstrate just how different these subspaces can be—and to reflect on what the implications of these findings are for continuing to validate Twitter hashtags as social spaces and learning spaces. 
+
+Up through March 15, 2020, you can freely download the article from [here](https://authors.elsevier.com/a/1aSx81HucdLmHL). After March 15, of course, I'll be happy to help you get access to a preprint or other version of the document. 
+
+For your reference, here is the abstract for the article: 
+
+> The existing work on teacher-focused Twitter hashtags typically frames each hashtag as a single, unified phenomenon, thereby collapsing or erasing differences between them (and any resulting implications for learning). In this study, we conceived of teacher-focused hashtags as affinity spaces potentially containing subspaces distinguished by synchronous chats and other, asynchronous communication. We used computational methods to explore how participation differed in terms of content, interactions, and portals between these contexts within the #michED hashtag used by Michigan teachers. During the 2015–2016 academic year, #michED saw more non-chat activity than chat activity, and most participants only engaged in one mode of activity or the other. Participation during chats was associated with more replying as well as more socially-, affectively-, and cognitively-related content, suggesting a focus on social interaction. In contrast, non-chat participation was associated with more retweeting, mentioning, hyperlinks, and hashtags, suggesting a focus on content dissemination. These results suggest that different affinity spaces—and different literacy practices—may exist within the same hashtag to support different objectives. Teachers, teacher educators, and researchers should therefore be careful to make these distinctions when considering Twitter as a learning technology for teachers.
+
+Just for fun, this publication also represents the début of @tweet__example, a [dummy tweet](https://twitter.com/tweet__example/status/1176592704647716864) that we set up to provide a straightforward and hopefully simple visual explanation of how Twitter works. One of the reviewers for this paper was adamant that a paper in 2019 no longer needed to introduce Twitter to readers of a journal like *Computers & Education*, but we've found brief explanations to be helpful for readers who aren't familiar with Twitter—and for future readers who know that the Twitter platform has changed considerably over time. One of my favorite things about reading Twitter research is that they collectively provide a mostly-unintentional history of the platform as it changes over time, and I feel an obligation to help document that. I'm particularly pleased that @tweet__example also features ultra-minor Star Wars character [Jek Porkins](https://starwars.fandom.com/wiki/Jek_Tono_Porkins) as the purported user.
+
+![](https://spencergreenhalgh.com/tweet_example.jpg)
