@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-05-08T9:12:37-04:00
+date = 2020-05-08T9:12:37-04:00
 title = "'with Canvas being an educational software, it does have to be tracked'"
 slug = "it-does-have-to-be-tracaked" 
 tags = ["prviacy", "educational technology", "Canvas", "Learning Management System", "online learning", "learning analytics"]
