@@ -7,7 +7,7 @@ tags = ["social media", "Twitter", "publications", "research", "research methods
 categories = ["macro"]
 +++
 
-Several months ago, I [wrote about](https://spencergreenhalgh.com/posts/spam-spam-spam-spam/) a presentation on spam in educational Twitter research that I prepared with my colleagues [Jeff Carpenter](https://twitter.com/jeffpcarpenter), [Matt Koehler](http://www.matt-koehler.com/), and [Bret Staudt Willet](http://bretsw.com/). Since that presentation, we've been hard at work continuing this project, and I'm pleased to announce that *Spam and educators' Twitter use: Methodological challenges and considerations* has is now available "[online first](https://link.springer.com/article/10.1007/s11528-019-00466-3)" through *TechTrends*. At the time of posting, the article can be read without a paywall [here](https://link.springer.com/epdf/10.1007/s11528-019-00466-3).
+Several months ago, I [wrote about](https://spencergreenhalgh.com/posts/spam-spam-spam-spam/) a presentation on spam in educational Twitter research that I prepared with my colleagues [Jeff Carpenter](https://twitter.com/jeffpcarpenter), [Matt Koehler](http://www.matt-koehler.com/), and [Bret Staudt Willet](http://bretsw.com/). Since that presentation, we've been hard at work continuing this project, and I'm pleased to announce that *Spam and educators' Twitter use: Methodological challenges and considerations* is now available "[online first](https://link.springer.com/article/10.1007/s11528-019-00466-3)" through *TechTrends*. At the time of posting, the article can be read without a paywall [here](https://link.springer.com/epdf/10.1007/s11528-019-00466-3).
 
 For your reference, here is the abstract for the article: 
 
