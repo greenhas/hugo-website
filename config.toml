@@ -74,22 +74,13 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-keybase fa-2x"
     weight = 8
     url = "https://keybase.io/spgreenhalgh"
-[[params.social]]
-    name = "Impodster Syndrome podcast"
-    icon = "fas fa-podcast fa-2x"
-    weight = 9
-    url = "http://impodstersyndrome.libsyn.com/"
 
 # Menu links
 [[menu.main]]
-    name = "About"
-    weight = 1
-    url = "/about/"
-[[menu.main]]
     name = "CV"
-    weight = 2
+    weight = 1
     url = "/cv.html"
 [[menu.main]]
    name = "Blog(s)"
-   weight = 3
+   weight = 2
    url  = "/posts/"
