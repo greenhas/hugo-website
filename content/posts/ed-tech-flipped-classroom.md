@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-07-28T10:10:00-04:00
+date = 2020-07-28T10:00:00-04:00
 title = "Faculty brownbag: An educational technology approach to the flipped classroom"
 slug = "differences-between-teacher-hashtags" 
 tags = ["educational technology", "flipped classroom", "online learning", "distance learning"]
