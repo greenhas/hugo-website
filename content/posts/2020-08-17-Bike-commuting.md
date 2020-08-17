@@ -1,0 +1,1 @@
++++draft = falsedate = 2020-08-17T07:52:38-04:00title = "Bike commuting today for the first time in 5 months, Also, commuting today for the first time in 5 months."slug = "2020-08-17-Bike-commuting"tags = []categories = ["micro"]+++Bike commuting today for the first time in 5 months, Also, commuting today for the first time in 5 months.
