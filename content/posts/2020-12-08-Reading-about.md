@@ -1,0 +1,1 @@
++++draft = falsedate = 2020-12-08T22:39:08-05:00title = "Reading about the Dreyfus Affair is spookier in December 2020 than it was back as an undergrad in French Civ II."slug = "2020-12-08-Reading-about"tags = []categories = ["micro"]+++Reading about the Dreyfus Affair is spookier in December 2020 than it was back as an undergrad in French Civ II.
