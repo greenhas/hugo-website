@@ -81,6 +81,10 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "/cv.html"
 [[menu.main]]
-   name = "Blog(s)"
+   name = "Blog"
    weight = 2
-   url  = "/posts/"
+   url  = "/categories/macro/"
+[[menu.main]]
+   name = "Microblog"
+   weight = 3
+   url  = "/categories/micro/"
