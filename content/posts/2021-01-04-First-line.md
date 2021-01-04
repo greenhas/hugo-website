@@ -1,0 +1,1 @@
++++draft = falsedate = 2021-01-04T07:38:48-05:00title = "First line of this morning’s France Inter news broadcast: “A phone call worthy of an American crime novel.”"slug = "2021-01-04-First-line"tags = []categories = ["micro"]+++First line of this morning’s France Inter news broadcast: “A phone call worthy of an American crime novel.”
