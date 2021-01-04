@@ -1,1 +1,0 @@
-+++draft = falsedate = 2021-01-04T12:17:44-05:00title = "hello world"slug = "2021-01-04-hello-world"tags = []categories = ["micro"]+++hello world
