@@ -1,0 +1,1 @@
++++draft = falsedate = 2021-03-25T14:58:22-04:00title = "You cannot understand online Mormonism without understanding Mormon feminism. The more I read, the clearer that becomes."slug = "2021-03-25-You-cannot"tags = []categories = ["micro"]+++You cannot understand online Mormonism without understanding Mormon feminism. The more I read, the clearer that becomes.
