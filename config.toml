@@ -4,6 +4,7 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+rssLimit = 20
 paginate = 20
 canonifyurls = true
 
