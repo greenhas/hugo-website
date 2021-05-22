@@ -1,0 +1,1 @@
++++draft = falsedate = 2021-05-22T15:00:32-04:00title = "This afternoon, we begin what will hopefully become an annual tradition of watching the Eurovision final."slug = "2021-05-22-This-afternoon,"tags = []categories = ["micro"]+++This afternoon, we begin what will hopefully become an annual tradition of watching the Eurovision final.
