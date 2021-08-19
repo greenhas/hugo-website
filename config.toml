@@ -89,3 +89,7 @@ pygmentscodefencesguesssyntax = true
    name = "Microblog"
    weight = 3
    url  = "/categories/micro/"
+[[menu.main]]
+   name = "linkblog"
+   weight = 4
+   url  = "/categories/link"
