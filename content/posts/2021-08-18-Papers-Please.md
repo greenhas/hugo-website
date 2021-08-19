@@ -1,0 +1,1 @@
++++draft = falsedate = 2021-08-18T22:28:01-04:00title = "linkblog: just read "How Teenagers Are Rediscovering An Old Game About Authoritarianism | by Clive Thompson | Aug, 2021 | OneZero""slug = "2021-08-18-Papers-Please"tags = []categories = ["micro"]+++Papers Please is one of the most moving games I’ve ever played. Great example that we can learn from this medium.
