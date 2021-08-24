@@ -1,7 +1,7 @@
 +++
 draft = false
 date = 2021-08-24T14:06:52-04:00
-title = "We need to focus less on DezNat's White nationalism."
+title = "We need to focus more on gender and sexuality in DezNat."
 slug = "deznat-sexuality-gender" 
 tags = ["research","media","DezNat","sexuality","gender","Red Pill","White nationalism","Mormon Twitter","alt-right","anti-feminism","misogyny"]
 categories = ["macro"]
@@ -43,7 +43,7 @@ These are all good things for Latter-day Saint leaders to speak directly on, but
 
 Note that the Church's distancing itself from DezNat is based entirely on the "alt-right" aspect of the movement—not its anti-feminism or homophobia, which our research suggests is more prevalent—and at least as aggressive—in DezNat discourse. It's good that the Church does not approve of these "alt-right" aspects of DezNat, but how does the Church feel about the movement's aggressive anti-feminism? About its cruel homophobia? 
 
-I've been thinking about this post for a while now, but it's become especially salient this week. In a recent address to BYU faculty, beloved Latter-day Saint apostle Jeffrey Holland [raised concerns](https://newsroom.churchofjesuschrist.org/article/elder-jeffrey-r-holland-2021-byu-university-conference) about signs of openness towards queer students on the Church-operated campus, describing queer advocacy as "wounding students and the parents of students who are confused about what so much recent flag-waving and parade-holding on this issue means" and asking for "loyalty to prophetic leadership and devotion to revealed doctrine, touching (intentionally or not) on more than one DezNat talking point while doing so. Perhaps most worrying in this context, though, is Holland's later comment:
+I've been thinking about this post for a while now, but it's become especially salient this week. In a recent address to BYU faculty, beloved Latter-day Saint apostle Jeffrey Holland [raised concerns](https://newsroom.churchofjesuschrist.org/article/elder-jeffrey-r-holland-2021-byu-university-conference) about signs of openness towards queer students on the Church-operated campus, describing queer advocacy as "wounding students and the parents of students who are confused about what so much recent flag-waving and parade-holding on this issue means" and asking for "loyalty to prophetic leadership and devotion to revealed doctrine," touching (intentionally or not) on more than one DezNat talking point while doing so. Perhaps most worrying in this context, though, is Holland's later comment:
 
 > My Brethren have made the case for the metaphor of musket fire, which I have endorsed yet again today. There will continue to be those who oppose our teachings and with that will continue the need to define, document, and defend the faith.
 
