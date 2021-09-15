@@ -82,14 +82,45 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "/cv.html"
 [[menu.main]]
-   name = "Blog"
+   name = "blog"
    weight = 2
    url  = "/categories/macro/"
 [[menu.main]]
-   name = "Microblog"
+   name = "microblog"
    weight = 3
    url  = "/categories/micro/"
 [[menu.main]]
    name = "linkblog"
    weight = 4
    url  = "/categories/link"
+   
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.74.3"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.74.3"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.74.3"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.74.3"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
