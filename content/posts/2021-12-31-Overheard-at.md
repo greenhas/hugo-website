@@ -1,1 +1,0 @@
-+++draft = falsedate = 2021-12-31T18:15:46-05:00title = "Overheard at the Greenhalghs: "If a hot dog can be a sandwich, a crêpe can be a wrap!""slug = "2021-12-31-Overheard-at"tags = []categories = ["micro"]+++Overheard at the Greenhalghs: "If a hot dog can be a sandwich, a crêpe can be a wrap!"
