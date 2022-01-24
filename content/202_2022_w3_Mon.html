@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 3.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 24: Understanding Mobile Devices</h2>
+<h2 style=color:white>24 Jan 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# make sure to [pick up your KN95s](https://www.uky.edu/coronavirus/students)
+# also check out [COVIDTests.gov](COVIDTests.gov) for 4 free rapid tests/address
+
+---
+
+# next week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 24: Understanding Mobile Devices (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 25: Care and Feeding of Mobile Devices (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on access to computers of all sizes (by Thursday)
+* enable remote mobile access for your Raspberry Pi (by Sunday)
+
+---
+
+class: center, middle
+
+# make sure to use the troubleshooting discussion board!
+# I may be flexible, but working early is better!
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 24: Understanding Mobile Devices
+
+---
+
+class: center, middle
+
+# how do we define computers in this class?
+
+---
+
+class: center, middle
+
+# "In modern terms, a computer is an electronic device that can perform calculations." 
+##(Meyers, 2019, p. 30)
+
+---
+
+class: center, middle
+
+# what general process do all computers follow? 
+
+---
+
+class: center, middle
+
+# input
+# processing
+# output
+# (storage)
+# (networking)
+
+---
+
+class: center, middle
+
+<a title="Mozilla.org, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Open_C_night_blue_multiview01.jpg"><img width="800" alt="Open C night blue multiview01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Open_C_night_blue_multiview01.jpg/512px-Open_C_night_blue_multiview01.jpg"></a>
+
+---
+
+class: center, middle
+
+# does it make sense to call this a "computer"? 
+
+---
+
+class: center, middle
+
+# "it's not easy to find a definition of *mobile device* that everyone agrees on"
+##(Meyers, 2019, p. 1085)
+
+---
+
+class: center, middle
+
+# how would you define "mobile device" in a way that sets it apart from other kinds of computer?
+
+---
+class: center, middle 
+#"Lightweight, usually less than two pounds"
+##(Meyers, 2019, p. 1085)
+
+---
+class: center, middle
+# "Small, designed to move with you (in your hand or pocket)"
+##(Meyers, 2019, p. 1085)
+
+---
+class: center, middle
+
+<a title="Wikimedia Foundation, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:1st_gen_Comparison_iPad_Mini_%26_Google_Nexus_7_%26_Kindle_Fire_Wikipedia_screen_03_2013_6262.jpg"><img width="800" alt="1st gen Comparison iPad Mini &amp; Google Nexus 7 &amp; Kindle Fire Wikipedia screen 03 2013 6262" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/1st_gen_Comparison_iPad_Mini_%26_Google_Nexus_7_%26_Kindle_Fire_Wikipedia_screen_03_2013_6262.jpg/800px-1st_gen_Comparison_iPad_Mini_%26_Google_Nexus_7_%26_Kindle_Fire_Wikipedia_screen_03_2013_6262.jpg"></a>
+
+---
+class: center, middle
+
+# "Touch or stylus interface; no keyboard or mice"
+##(Meyers, 2019, p. 1085)
+
+---
+
+class: center, middle
+
+<a title="William Hook, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Smartphone_keyboard.jpg"><img width="512" alt="Smartphone keyboard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Smartphone_keyboard.jpg/512px-Smartphone_keyboard.jpg"></a>
+
+---
+class: center, middle
+
+<img width="800" src="https://cdn.vox-cdn.com/thumbor/mipO4ARcBxBhlxf8R6cIqPHgEz4=/0x0:2040x1360/1520x1013/filters:focal(1409x491:1735x817):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64113706/DSC00725.0.jpg">
+
+Photo by Sam Byford / [The Verge](https://www.theverge.com/2019/6/25/18743993/ipad-mouse-ipad-os-how-to)
+
+---
+class: center, middle
+
+# "Sealed unit lacking any user-replaceable parts"
+##(Meyers, 2019, p. 1085)
+
+---
+
+class: center, middle
+
+# "Non-desktop OS; mobile devices use special operating systems"
+##(Meyers, 2019, p. 1085)
+
+---
+
+class: center, middle
+<a title="Takeaway, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2019_02_Microsoft_Surface_Pro_2017_with_signature_type_cover.jpg"><img width="512" alt="2019 02 Microsoft Surface Pro 2017 with signature type cover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2019_02_Microsoft_Surface_Pro_2017_with_signature_type_cover.jpg/512px-2019_02_Microsoft_Surface_Pro_2017_with_signature_type_cover.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Purism team CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Librem5_phone_convergence_-_screen_keyboard_mouse.jpg"><img width="800" alt="Librem5 phone convergence - screen keyboard mouse" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Librem5_phone_convergence_-_screen_keyboard_mouse.jpg/1024px-Librem5_phone_convergence_-_screen_keyboard_mouse.jpg"></a>
+
+---
+
+class: center, middle
+
+# what counts as a "mobile device"? 
+
+---
+
+class: center, middle
+
+# mobile operating systems
+
+---
+
+class: center, middle
+
+# what is the most popular mobile OS?
+
+---
+
+class: center, middle 
+
+<a title="Smartmo, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:World_Wide_Smartphone_Sales.png"><img width="753" alt="World Wide Smartphone Sales" src="https://upload.wikimedia.org/wikipedia/commons/8/83/World_Wide_Smartphone_Sales.png"></a>
+
+---
+
+class: center, middle
+
+# what explains Android's worldwide success?
+
+---
+
+class: center, middle
+
+# operating system design philosophies: Android vs. iOS 
+
+---
+
+class: center, middle
+
+# open source vs. closed source
+
+---
+
+class: center, middle
+
+# open app ecosystem vs. closed app ecosystem
+
+---
+
+class: center, middle
+
+# "Google was terrified that Apple would end up ruling the mobile space. So, to help in the fight against the iPhone at a time when Google had no mobile foothold whatsoever, Android was launched as an open source project."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# "In that era, Google had nothing, so any adoption—any shred of market share—was welcome. Google decided to give Android away for free and use it as a trojan horse for Google services."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# "Android has arguably won the smartphone wars, but 'Android winning' and 'Google winning' are not necessarily the same thing.e. Anyone is free to take it, clone the source, and create their own fork or alternate version."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# can you think of any alternate versions of Android?
+
+---
+
+class: center, middle
+
+<a title="Romazur, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Unboxed_amazon_fire_phone_32gb.jpg"><img width="512" alt="Unboxed amazon fire phone 32gb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Unboxed_amazon_fire_phone_32gb.jpg/512px-Unboxed_amazon_fire_phone_32gb.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Oltrexr4, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:LineageOS_17.1_default_homescreen.png"><img width="256" alt="LineageOS 17.1 default homescreen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/LineageOS_17.1_default_homescreen.png/256px-LineageOS_17.1_default_homescreen.png"></a>
+
+---
+
+class: center, middle
+
+# " What many people think of as "Android" actually falls into two categories: the open parts from the Android Open Source Project (AOSP), which are the foundation of Android, and the closed source parts, which are all the Google-branded apps."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# "Google's real power in mobile comes from control of the Google apps—mainly Gmail, Maps, Google Now, Hangouts, YouTube, and the Play Store. These are Android's killer apps, and the big (and small) manufacturers want these apps on their phones. Since these apps are not open source, they need to be licensed from Google."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# "While it might not be an official requirement, being granted a Google apps license will go a whole lot easier if you join the Open Handset Alliance. The OHA is a group of companies committed to Android—Google's Android—and **members are contractually prohibited from building non-Google approved devices**."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# "While Android is open, it's more of a 'look but don't touch' kind of open. You're allowed to contribute to Android and allowed to use it for little hobbies, but in nearly every area, the deck is stacked against anyone trying to use Android without Google's blessing."
+
+Amadeo, R. (2018, July 21). Google's iron grip on Android: Controlling open source by any means necessary. *Ars Technica*, https://arstechnica.com/gadgets/2018/07/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+
+---
+
+class: center, middle
+
+# this doesn't let Apple off the hook
+
+---
+
+class: center, middle
+
+# "the European Commission’s proposed Digital Markets Act... would require Apple to let users install apps outside of the iOS App Store"
+
+Gartenberg, C. (2021, November 3). "Sideloading is a cyber criminal's best friend," according to Apple's software chief. *The Verge*. https://www.theverge.com/2021/11/3/22761724/apple-craig-federighi-ios-sideloading-web-summit-2021-european-commission-digital-markets-act
+
+---
+
+class: center, middle
+
+# "'Sideloading is a cyber criminal’s best friend and requiring that on iPhone would be a gold rush for the malware industry,' according to Apple senior vice president Craig Federighi"
+
+Gartenberg, C. (2021, November 3). "Sideloading is a cyber criminal's best friend," according to Apple's software chief. *The Verge*. https://www.theverge.com/2021/11/3/22761724/apple-craig-federighi-ios-sideloading-web-summit-2021-european-commission-digital-markets-act
+
+---
+
+class: center, middle
+
+# "Apple has removed Epic Games’ battle royale game Fortnite from the App Store after the developer on Thursday implemented its own in-app payment system that bypassed Apple’s standard 30 percent fee."
+
+Statt, N. (2020, August 13). Apple just kicked Fortnite off the App Store. *The Verge*. https://www.theverge.com/2020/8/13/21366438/apple-fortnite-ios-app-store-violations-epic-payments
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
