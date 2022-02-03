@@ -1,0 +1,1 @@
++++draft = falsedate = 2022-02-03T13:04:22-05:00title = "linkblog: just finished 'What Big Tech’s Riches Mean for Our Future - The New York Times'"slug = "2022-02-03-Amazon-can"tags = []categories = ["link"]+++Amazon can afford to lose the entire value of Disney. That's mind-bogglingly (and worryingly) rich
