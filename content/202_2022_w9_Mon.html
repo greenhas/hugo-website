@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 9.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 12: Windows Under the Hood</h2>
+<h2 style=color:white>7 Mar 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+# next week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 12: Windows Under the Hood (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 13: Users, Groups, and Permissions (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on the importance of authentication and authorization (by Thursday)
+* manage user accounts, groups, and permission in Raspberry Pi OS (by Sunday)
+
+---
+
+class: center, middle
+
+# I report midterm grades this week!
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# operating systems
+
+---
+
+class: center, middle
+
+# "The *operating system (OS)* controls the hardware and enables you to tell the computer what to do."
+
+(Meyers, 2019, p. 32)
+
+---
+
+class: center, middle
+
+# how do we define computers in this class?
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Golftheman, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Operating_system_placement.svg"><img width="400" alt="Operating system placement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/512px-Operating_system_placement.svg.png"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# a brief history of Windows
+
+
+---
+
+class: center, middle
+
+# MS-DOS (1981 - 2000)
+
+<a title="Przemub, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ms-dosdir.png"><img width="512" alt="Ms-dosdir" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Ms-dosdir.png"></a>
+
+---
+
+class: center, middle
+
+# Windows 1.0 - 3.11 (1983 - 2001)
+
+<img src="https://upload.wikimedia.org/wikipedia/en/7/73/Windows_3.11_workspace.png">
+
+---
+
+class: center, middle
+
+# Windows 95 (1995-1997)
+
+<img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Windows_95_at_first_run.png">
+
+---
+
+class: center, middle
+
+# who uses Windows as main desktop/laptop OS?
+
+---
+
+class: center, middle
+
+# [desktop OS market share](https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-200901-202202)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 12: Windows Under the Hood
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# where is Windows stored?
+
+---
+
+class: center, middle
+
+# what is Windows stored as?
+
+---
+
+class: center, middle
+
+# below the surface, many ICT phenomena come down to a set of formatted files
+
+---
+
+class: center, middle
+
+# "The *Registry* is a huge database, part of every installed Windows system, that stores everything about a PC..."
+
+(Meyers, 2019, p. 487)
+
+---
+
+class: center, middle
+
+# Registry equivalent in Raspberry Pi OS
+
+---
+
+class: center, middle
+
+# "Even though the Registry is important, you rarely access the Registry directly. Instead, when you use Windows' Settings or Control Panel (or just about any other utility), you are editing the Registry." 
+
+(Meyers, 2019)
+
+---
+
+class: center, middle
+
+<p><a href="https://en.wikipedia.org/wiki/File:Regstry_Editor.png#/media/File:Regstry_Editor.png"><img src="https://upload.wikimedia.org/wikipedia/en/5/52/Regstry_Editor.png" alt="Regstry Editor.png"></a><br>By <a href="//en.wikipedia.org/wiki/Windows_10" title="Windows 10">Windows 10</a>, <a href="//en.wikipedia.org/wiki/File:Regstry_Editor.png" title="Fair use of copyrighted material in the context of Windows Registry">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=53062150">Link</a></p>
+
+---
+
+# registry components 
+(Meyers, 2019, pp. 488-489)
+
+--
+
+* `HKEY_CLASSES_ROOT` ("Pretty much everything that has to do with files on the system is defined by a class object")
+
+--
+
+* `HKEY_CURRENT_USER` ("stores the current user settings") and `HKEY_USERS` ("all of the personalized information for each user")
+
+--
+
+* `HKEY_LOCAL_MACHINE` ("contains all the data for a system's non-user-specific configurations")
+
+--
+
+* `HKEY_CURRENT_CONFIG` ("defines which [option] is currently being used")
+
+---
+
+class: center, middle
+
+# "There's little motivation for you to go into the Registry and make manual edits unless you've done some research that tells you to do so"
+
+(Meyers, 2019, p. 491)
+
+---
+
+class: center, middle
+
+# "always make a backup of the Registry before you change anything"
+
+(Meyers, 2019, p. 491)
+
+---
+
+class: center, middle
+
+# "There’s a dumb prank that’s been floating around the Internet for a long time, where jokers try to trick people into deleting their System32 folder."
+
+Hoffman, C. (2018, April 28). What is the System32 Directory? (and why you shouldn’t delete it). *How-To Geek*. https://www.howtogeek.com/346997/what-is-the-system32-directory-and-why-you-shouldnt-delete-it/
+
+---
+
+class: center, middle
+
+### `bootmgr`
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "When bootmgr starts, it reads data from a *Boot Configuration Data (BCD)* file that contains information about the various operating systems installed on the system as well as instruction for how to actually load (bootstrap) them." 
+
+(Meyers, 2019, p. 493)
+
+---
+
+class: center, middle
+
+### applications
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "In Windows, programs are executable files waiting on a mass storage device. When you start a program, Windows loads it into RAM as a process. Once there, the CPU reads the process and the process tells the CPU which chunks of code to run." 
+
+(Meyers, 2019, p. 494)
+
+---
+
+class: center, middle
+
+<a title="Hooman Mallahzadeh, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Concepts-_Program_vs._Process_vs._Thread.jpg"><img width="512" alt="Concepts- Program vs. Process vs. Thread" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/512px-Concepts-_Program_vs._Process_vs._Thread.jpg"></a>
+
+---
+
+class: center, middle
+
+# Task Manager
+
+---
+
+class: center, middle
+
+# Resource Monitor
+
+---
+
+class: center, middle
+
+# Performance Tools
+
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
