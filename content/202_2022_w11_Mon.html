@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 9.3</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 14: Maintaining and Optimizing Operating Systems</h2>
+<h2 style=color:white>21 Mar 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 14: Maintaining and Optimizing Operating Systems (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 16: Troubleshooting Operating Systems (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on operating systems and control (by Thursday)
+* choose Raspberry Pi-compatible operating systems (by Sunday)
+
+---
+
+class: center, middle
+
+# "All UK students, faculty, and staff can make an account in the ESI Learner Experience Portal (LxP) for free using their linkblue credentials. Visit https://esi.microsoft.com to create your account."
+
+---
+
+class: center, middle
+
+# “How is binary code translated into letters if it only represents numeric values that are turned on or off?”
+
+---
+
+class: center, middle
+
+<a title="Denelson83, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Semaphore_Signals_A-Z.jpg"><img width="512" alt="Semaphore Signals A-Z" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Semaphore_Signals_A-Z.jpg/512px-Semaphore_Signals_A-Z.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Rhey T. Snodgrass &amp; Victor F. Camp, 1922, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:International_Morse_Code.svg"><img width="400" alt="International Morse Code" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/512px-International_Morse_Code.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Original by: User:Vanessaezekowitz,, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Papertape-Wikipedia-example-dark1-2000px.png"><img width="512" alt="Papertape-Wikipedia-example-dark1-2000px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Papertape-Wikipedia-example-dark1-2000px.png/512px-Papertape-Wikipedia-example-dark1-2000px.png"></a>
+
+---
+
+class: center, middle
+
+# <a href="https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block)">Unicode</a>
+
+---
+
+class: center, middle
+
+## "As a result, I'm going to share with you the notes that allowed me to have a 18/20 in philosophy even though for me, philosophy meant naptime during my senior year 🤷‍♂️😇"
+
+## "1 RT = ONE SAVED HIGH-SCHOOLER 👨‍🎓"
+
+## [encoding error](https://link.springer.com/content/pdf/10.1007/s11423-021-10015-6.pdf)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 14: Maintaining and Optimizing Operating Systems
+
+---
+
+class: center, middle
+
+# what is the difference between "maintaining" and "optimizing"? 
+
+---
+
+class: center, middle
+
+# "*Maintenance* means jobs you do from time to time to keep the OS running well"
+
+(Meyers, 2019, p. 575)
+
+---
+
+class: center, middle
+
+# "*optimization*[:] changes you make to a system to make it better"
+
+(Meyers, 2019, p. 575)
+
+---
+
+class: center, middle
+
+# "The secret isn't to try to avoid trouble, because trouble will find you, but rather to make sure you're ready to deal with problems when they arise." 
+
+(Meyers, 2019, p. 575)
+
+---
+
+class: center, middle
+
+#  🎉 spring break cloud migration 🎉
+
+---
+
+class: center, middle
+
+# "OS developers give us plenty of tools to prepare for problems—we just need to make sure we use them." 
+
+(Meyers, 2019, p. 575)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# maintenance: patch management
+
+---
+
+class: center, middle
+
+# why is it important to upgrade operating systems?
+
+---
+
+class: center, middle
+
+# "First, all operating system makers come up with new or improved features"
+
+(Meyers, 2019, p. 576)
+
+---
+
+class: center, middle
+
+# "Second, bad actors discover weaknesses and generate malware to take advantage of those weaknesses."
+
+(Meyers, 2019, p. 576)
+
+---
+
+class: center, middle
+
+# be honest: how quickly do you update software and operating systems? why?
+
+---
+
+class: center, middle
+
+# "In 2015, the US Navy paid Microsoft $9 million to keep supporting Windows XP, Office 2003, Exchange 2003, and Server 2003—a deal that had options to continue support until 2017 for up to $30,842,980."
+
+Gallagher, S. (2020, January 14). Windows 7: "I'm not dead yet!" *Ars Technica*. https://arstechnica.com/information-technology/2020/01/windows-7-im-not-dead-yet/
+
+---
+
+class: center, middle
+
+# "In 2017, Microsoft was forced to release an emergency patch for Windows XP and other unsupported Windows versions because of the WannaCry destructive malware outbreak, in part because of the continued use of those operating systems by hospitals and other critical organizations."
+
+Gallagher, S. (2020, January 14). Windows 7: "I'm not dead yet!" *Ars Technica*. https://arstechnica.com/information-technology/2020/01/windows-7-im-not-dead-yet/
+
+---
+
+class: center, middle
+
+# "The attack is said to have hit more than 300,000 computers in 150 nations, causing billions of dollars of damage."
+
+BBC. (2017, December 19). "Cyber-attack: US and UK blame North Korea for WannaCry". https://www.bbc.com/news/world-us-canada-42407488
+
+---
+class: center, middle
+
+# "zero-day"
+
+---
+
+class: center, middle
+
+# "The Russian state hackers who orchestrated the SolarWinds supply chain attack last year exploited an iOS zero-day as part of a separate malicious email campaign aimed at stealing Web authentication credentials from Western European governments, according to Google and Microsoft."
+
+Goodin, D. (2021, July 14). iOS zero-day let SolarWinds hackers compromise fully updated iPhones. *Ars Technica*. https://arstechnica.com/gadgets/2021/07/solarwinds-hackers-used-an-ios-0-day-to-steal-google-and-microsoft-credentials/ 
+
+---
+
+class: center, middle
+
+# "The scope of a hacking engineered by one of Russia’s premier intelligence agencies became clearer on Monday, when some Trump administration officials acknowledged that other federal agencies — the State Department, the Department of Homeland Security and parts of the Pentagon — had been compromised"
+
+Sanger, D. E., Perlroth, N., & Schmitt, E. (2021, September 9). Scope of Russian hacking becomes clear: Multiple U.S. agencies were hit. *The New York Times*. https://www.nytimes.com/2020/12/14/us/politics/russia-hack-nsa-homeland-security-pentagon.html
+
+---
+
+# patch management in Windows 10
+
+--
+
+* "individual users can't turn off updates" (Meyers, 2019, p. 581)
+
+--
+
+* *quality updates*: smaller, cumulative patches
+
+--
+
+* *feature updates*: new versions of Windows, named by year and month up through `2004`
+
+--
+
+    * "Windows 10, version 20H2 is, therefore, '20H2' because it will be released in the second half of the 2020 calendar year" ([Windows Experience blog](https://blogs.windows.com/windowsexperience/2020/06/16/whats-next-for-windows-10-updates/))
+
+--
+
+* Windows 10 is only the tip of the iceberg!
+
+---
+
+# patch management on other operating systems
+
+--
+
+* macOS: through the *App Store* and *Software Update* interfaces
+
+--
+
+* Linux distros: it depends, but a GUI updating tool is usually available
+
+
+
+
+
+
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
