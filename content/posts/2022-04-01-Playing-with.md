@@ -1,0 +1,1 @@
++++draft = falsedate = 2022-04-01T13:00:52-04:00title = "linkblog: my thoughts on ''"slug = "2022-04-01-Playing-with"tags = []categories = ["link"]+++Playing with QAnon is playing with fire. These folks should be ashamed of themselves. [link to ''](about:blank)
