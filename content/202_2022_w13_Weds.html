@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 13.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 19: Local Area Networking</h2>
+<h2 style=color:white>6 Apr 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 18: Essentials of Networking (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 19: Local Area Networking (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on benefits and downsides of networks (by Thursday)
+* access the command line of your Raspberry Pi over a network (by Sunday)
+
+---
+
+class: center, middle
+
+# [SEC and ACC Virtual Career Fair](https://www.careereco.com/Fair/EventDetails?fairId=5cc8baa9-c5ce-4d09-a7a1-ade5012d52ed)
+
+## 6 April 2022, 10am - 5pm Eastern
+
+---
+
+class: center, middle
+
+# [Accenture: Meet UK Alums Event](https://uky.joinhandshake.com/events/1014632/share_preview)
+
+## 13 April 2022, 4pm - 5pm Eastern
+
+---
+
+class: center, middle
+
+# check your grades!
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 19: Local Area Networking 
+
+---
+
+class: center, middle
+
+# "It's hard to find a computer that's not connected to a network."
+
+(Meyers, 2019, p. 799). 
+
+---
+
+class: center, middle
+
+# "Take a moment to think about what you do on a network."
+
+(Meyers, 2019, p. 799)
+
+---
+
+class: center, middle
+
+## local and remote hosts
+
+<a title="Gnome-fs-client.svg: David Vignoni
+Gnome-fs-server.svg: David Vignoni
+derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="500" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg"></a>
+
+---
+
+class: center, middle
+
+# Web server
+
+---
+
+class: center, middle
+
+# print server
+
+---
+
+class: center, middle
+
+# file server
+
+---
+
+class: center, middle
+
+# mail server
+
+---
+
+class: center, middle
+
+# resources
+
+---
+
+class: center, middle
+
+## what is necessary to make all of this work?
+
+<a title="Gnome-fs-client.svg: David Vignoni
+Gnome-fs-server.svg: David Vignoni
+derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="500" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg"></a>
+
+---
+
+class: center, middle
+
+# 1) definitions and standards
+
+---
+
+class: center, middle
+
+# 2) addresses
+
+---
+
+class: center, middle
+
+# 3) method for sharing and accessing
+
+---
+
+class: center, middle
+
+# 1) definitions and standards
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="512" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/512px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="NASA, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_-_GPN-2000-001976.jpg"><img width="512" alt="The Sounds of Earth - GPN-2000-001976" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Sounds_of_Earth_-_GPN-2000-001976.jpg/512px-The_Sounds_of_Earth_-_GPN-2000-001976.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="NASA/JPL, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"><img width="512" alt="The Sounds of Earth Record Cover - GPN-2000-001978" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/512px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="NASA Jet Propulsion Laboratory, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Voyager_Golden_Record_Cover_Explanation.svg"><img width="512" alt="Voyager Golden Record Cover Explanation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Voyager_Golden_Record_Cover_Explanation.svg/512px-Voyager_Golden_Record_Cover_Explanation.svg.png"></a>
+
+---
+
+class: center, middle
+
+# network interface controller (NIC)
+
+---
+
+class: center, middle
+
+# "define or label the machine on the network"
+
+(Meyers, 2019, p. 803)
+
+---
+
+class: center, middle
+
+# 48-bit media access control address (MAC) address
+
+---
+
+class: center, middle
+
+# what's the problem with 48 bits? 
+
+---
+
+class: center, middle
+
+# hexadecimal!
+
+---
+
+class: center, middle
+
+# "A NIC also breaks files into smaller data units to send across the network and reassembles the units it receives into whole files"
+
+(Meyers, 2019, p. 803)
+
+---
+
+class: center, middle
+
+# "Data is moved from one device to another in discrete chunks called *frames*."
+
+(Meyers, 2019, p. 804)
+
+---
+
+# contents of a frame
+
+--
+
+## recipient MAC
+
+--
+
+## sender MAC
+
+--
+
+## data
+
+--
+
+## cyclic redundancy check (CRC) — a data check
+
+---
+
+class: center, middle
+
+## `NICOLE MARTIN`
+## `123 SHERBROOKE ST`
+## `TORONTO ON L3R 9P6`
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Envelope_-_Boonville_Address-000.jpg" width = "700">
+
+---
+
+class: center, middle
+
+# Ethernet
+
+---
+
+class: center, middle
+
+<a title="Someone&#039;s Moving Castle, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ethernet_Connection.jpg"><img width="512" alt="Ethernet Connection" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ethernet_Connection.jpg/512px-Ethernet_Connection.jpg"></a>
+
+---
+
+class: center, middle
+
+## switch (replaced the hub)
+
+<a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/512px-2550T-PWR-Front.jpg"></a>
+
+---
+
+class: center, middle
+
+## star network topology
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="512" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+## bus network topology
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:BusNetwork.svg"><img width="512" alt="BusNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BusNetwork.svg/512px-BusNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+## unshielded twisted pair (UTP) cable
+
+<a title="Jon &#039;ShakataGaNai&#039; Davis, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Network_switches.jpg"><img width="512" alt="Network switches" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Network_switches.jpg/512px-Network_switches.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+<a title="Tmthetom, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Modem-and-router-units.jpg"><img width="200" alt="Modem-and-router-units" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Modem-and-router-units.jpg"></a>
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+---
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
