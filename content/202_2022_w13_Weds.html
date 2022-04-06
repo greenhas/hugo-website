@@ -84,203 +84,7 @@ background-color: gray
 
 class: center, middle
 
-# A+, Chapter 19: Local Area Networking 
-
----
-
-class: center, middle
-
-# "It's hard to find a computer that's not connected to a network."
-
-(Meyers, 2019, p. 799). 
-
----
-
-class: center, middle
-
-# "Take a moment to think about what you do on a network."
-
-(Meyers, 2019, p. 799)
-
----
-
-class: center, middle
-
-## local and remote hosts
-
-<a title="Gnome-fs-client.svg: David Vignoni
-Gnome-fs-server.svg: David Vignoni
-derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="500" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg"></a>
-
----
-
-class: center, middle
-
-# Web server
-
----
-
-class: center, middle
-
-# print server
-
----
-
-class: center, middle
-
-# file server
-
----
-
-class: center, middle
-
-# mail server
-
----
-
-class: center, middle
-
-# resources
-
----
-
-class: center, middle
-
-## what is necessary to make all of this work?
-
-<a title="Gnome-fs-client.svg: David Vignoni
-Gnome-fs-server.svg: David Vignoni
-derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="500" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg"></a>
-
----
-
-class: center, middle
-
-# 1) definitions and standards
-
----
-
-class: center, middle
-
-# 2) addresses
-
----
-
-class: center, middle
-
-# 3) method for sharing and accessing
-
----
-
-class: center, middle
-
-# 1) definitions and standards
-
----
-
-class: center, middle
-
-<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="512" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/512px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
-
----
-
-class: center, middle
-
-<a title="NASA, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_-_GPN-2000-001976.jpg"><img width="512" alt="The Sounds of Earth - GPN-2000-001976" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Sounds_of_Earth_-_GPN-2000-001976.jpg/512px-The_Sounds_of_Earth_-_GPN-2000-001976.jpg"></a>
-
----
-
-class: center, middle
-
-<a title="NASA/JPL, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"><img width="512" alt="The Sounds of Earth Record Cover - GPN-2000-001978" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/512px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"></a>
-
----
-
-class: center, middle
-
-<a title="NASA Jet Propulsion Laboratory, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Voyager_Golden_Record_Cover_Explanation.svg"><img width="512" alt="Voyager Golden Record Cover Explanation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Voyager_Golden_Record_Cover_Explanation.svg/512px-Voyager_Golden_Record_Cover_Explanation.svg.png"></a>
-
----
-
-class: center, middle
-
-# network interface controller (NIC)
-
----
-
-class: center, middle
-
-# "define or label the machine on the network"
-
-(Meyers, 2019, p. 803)
-
----
-
-class: center, middle
-
-# 48-bit media access control address (MAC) address
-
----
-
-class: center, middle
-
-# what's the problem with 48 bits? 
-
----
-
-class: center, middle
-
-# hexadecimal!
-
----
-
-class: center, middle
-
-# "A NIC also breaks files into smaller data units to send across the network and reassembles the units it receives into whole files"
-
-(Meyers, 2019, p. 803)
-
----
-
-class: center, middle
-
-# "Data is moved from one device to another in discrete chunks called *frames*."
-
-(Meyers, 2019, p. 804)
-
----
-
-# contents of a frame
-
---
-
-## recipient MAC
-
---
-
-## sender MAC
-
---
-
-## data
-
---
-
-## cyclic redundancy check (CRC) — a data check
-
----
-
-class: center, middle
-
-## `NICOLE MARTIN`
-## `123 SHERBROOKE ST`
-## `TORONTO ON L3R 9P6`
-
----
-
-class: center, middle
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Envelope_-_Boonville_Address-000.jpg" width = "700">
+# more networking essentials
 
 ---
 
@@ -298,7 +102,15 @@ class: center, middle
 
 class: center, middle
 
-## switch (replaced the hub)
+## hub
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/4_port_netgear_ethernet_hub.jpg">
+
+---
+
+class: center, middle
+
+## switch
 
 <a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/512px-2550T-PWR-Front.jpg"></a>
 
@@ -330,8 +142,55 @@ class: center, middle
 
 class: center, middle
 
+# "A *local area network (LAN)* is a grou pof computers located physically close to each other."
+
+(Meyers, 2019, p. 816)
+
+---
+
+class: center, middle
+
+# "a LAN is almost always a group of computers that are able to 'hear' each other when one of them sends a broadcast"
+
+(Meyers, 2019, p. 816)
+
+---
+
+class: center, middle
+
+# unicast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Unicast.svg" width = "600">
+
+---
+
+class: center, middle
+
+# multicast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Multicast.svg" width = "600">
+
+---
+
+class: center, middle
+
+# broadcast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "600">
+
+---
+
+class: center, middle
+
 <a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
 <a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "200">
 
 ---
 
@@ -340,7 +199,215 @@ class: center, middle
 <a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
 <a title="Tmthetom, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Modem-and-router-units.jpg"><img width="200" alt="Modem-and-router-units" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Modem-and-router-units.jpg"></a>
 <a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
 ---
+
+class: center, middle
+
+# "You can connect multiple smaller networks into a bigger network, turning a group of LANs into one big WAN, but this raises a couple of issues with network traffic"
+
+(Meyers, 2019, p. 830)
+
+---
+
+class: center, middle
+
+# "A computer needs some form of powerful, flexible addressing"
+
+(Meyers, 2019, p. 830)
+
+---
+
+class: center, middle
+
+# "Broadcasting is also unacceptable, at least between LANs"
+
+(Meyers, 2019, p. 830)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 19: Local Area Networking
+
+---
+
+class: center, middle
+
+# Ethernet
+
+---
+
+class: center, middle
+
+# "Ethernet alone isn't enough to make a complete network; many other functions need to be handled."
+
+(Meyers, 2019, p. 834)
+
+---
+
+class: center, middle
+
+# frame size
+
+---
+
+class: center, middle
+
+# changing MAC addresses
+
+---
+
+class: center, middle
+
+<a title="SRI International, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SRI_First_Internetworked_Connection_diagram.jpg"><img width="600" alt="SRI First Internetworked Connection diagram" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/SRI_First_Internetworked_Connection_diagram.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IP_stack_connections.svg"><img width="500" alt="IP stack connections" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/IP_stack_connections.svg/512px-IP_stack_connections.svg.png"></a>
+
+---
+
+class: center, middle
+
+# TCP/IP
+
+---
+
+class: center, middle
+
+## `NICOLE MARTIN`
+## `123 SHERBROOKE ST`
+## `TORONTO ON L3R 9P6`
+
+---
+
+class: center, middle
+
+# MAC address ~ name w/o rest of address
+
+---
+
+class: center, middle
+
+# "Any network address must... uniquely identify the machine and it must locate that machine within the larger network."
+
+(Meyers, 2019, p. 834)
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_address_structure_and_writing_systems-en.svg"><img width="512" alt="IPv4 address structure and writing systems-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IPv4_address_structure_and_writing_systems-en.svg/512px-IPv4_address_structure_and_writing_systems-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+# IP address: 192.168.4.33
+# subnet mask: 255.255.255.0
+# network ID: 192.168.4
+# host ID: 33
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_address_structure_and_writing_systems-en.svg"><img width="512" alt="IPv4 address structure and writing systems-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IPv4_address_structure_and_writing_systems-en.svg/512px-IPv4_address_structure_and_writing_systems-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Tmthetom, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Modem-and-router-units.jpg"><img width="500" alt="Modem-and-router-units" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Modem-and-router-units.jpg"></a>
+
+---
+
+class: center, middle
+
+# `2^32 = 4,294,967,296 ~ 4.3 billion`
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_exhaustion_time_line-en.svg"><img width="512" alt="IPv4 exhaustion time line-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/IPv4_exhaustion_time_line-en.svg/512px-IPv4_exhaustion_time_line-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv6_address_terminology-en.svg"><img width="512" alt="IPv6 address terminology-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IPv6_address_terminology-en.svg/512px-IPv6_address_terminology-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+# `2^128 ~ 3.4 x 10^38`
+
+---
+
+class: center, middle
+
+### `2001:0000:0000:3210:0800:200c:00cf:1234`
+
+---
+
+class: center, middle
+
+## drop leading zeroes from any group
+
+### `2001:0000:0000:3210:0800:200c:00cf:1234`
+
+---
+
+class: center, middle
+
+## drop leading zeroes from any group
+
+### `2001:0000:0000:3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+## ONLY ONCE, remove one or more consecutive groups of zeroes, leaving double colons
+
+### `2001:0000:0000:3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+## ONLY ONCE, remove one or more consecutive groups of zeroes, leaving double colons
+
+### `2001::3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+# `128.163.35.46`
+
+---
+
+class: center, middle
+
+<img src="https://assets.amuniversal.com/bafa1d207c540134e224005056a9545d" width = "800">
+
+---
+
+class: center, middle
+
+# the Domain Name System
 
 </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
