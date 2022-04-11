@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 14.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 20: Wireless Networking</h2>
+<h2 style=color:white>11 Apr 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 20: Wireless Networking (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 21: The Internet (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on the social importance of internet access (by Thursday)
+* create and host a web page on your Raspberry Pi (by Sunday)
+
+---
+
+class: center, middle
+
+# [Accenture: Meet UK Alums Event](https://uky.joinhandshake.com/events/1014632/share_preview)
+
+## 13 April 2022, 4pm - 5pm Eastern
+
+---
+
+class: center, middle
+
+# check your grades!
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# basics of wireless networking
+
+---
+
+class: center, middle
+
+# "a simple wireless network is so inexpensive and easy to configure that most users and techs never really get into the *hows* of wireless"
+
+(Meyers, 2019, p. 895)
+
+---
+
+class: center, middle
+
+# WAP
+
+<a title="Hellisp, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dlink_wireless_router.jpg"><img width="512" alt="Dlink wireless router" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Dlink_wireless_router.jpg"></a>
+
+---
+
+class: center, middle
+
+# PoE
+
+<a title="Pelzi (talk · contribs), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ZyXEL_ZyAIR_G-1000_and_D-Link_DWL-P50_20060829_2.jpg"><img width="512" alt="ZyXEL ZyAIR G-1000 and D-Link DWL-P50 20060829 2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZyXEL_ZyAIR_G-1000_and_D-Link_DWL-P50_20060829_2.jpg/512px-ZyXEL_ZyAIR_G-1000_and_D-Link_DWL-P50_20060829_2.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Umapathy, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Star_Topology.png"><img width="400" alt="Star Topology" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Star_Topology.png"></a>
+
+---
+
+class: center, middle
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:FullMeshNetwork.svg"><img width="512" alt="FullMeshNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FullMeshNetwork.svg/512px-FullMeshNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="https://homethods.com/, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Google_WiFi_router.png"><img width="512" alt="Google WiFi router" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Google_WiFi_router.png/512px-Google_WiFi_router.png"></a>
+
+---
+
+class: center, middle
+
+## "On June 8, the merchant, Web host, and entertainment behemoth will automatically enroll the devices in Amazon Sidewalk. The new wireless mesh service will share a small slice of your Internet bandwidth with neighboring Sidewalk-capable devices that don’t have connectivity. Sidewalk will also help your Amazon devices to a sliver of bandwidth from other Sidewalk users when you don’t have a connection."
+
+Goodin, D. (2021, May 29). Amazon devices will soon automatically share your Internet with neighbors. *Ars Technica*. https://arstechnica.com/gadgets/2021/05/amazon-devices-will-soon-automatically-share-your-internet-with-neighbors/
+
+---
+
+class: center, middle
+
+<a title="https://homethods.com/, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Google_WiFi_router.png"><img width="512" alt="Google WiFi router" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Google_WiFi_router.png/512px-Google_WiFi_router.png"></a>
+
+---
+
+class: center, middle
+
+<a title="David Johnson, Karel Matthee, Dare Sokoya, Lawrence Mboweni, Ajay Makan, and Henk Kotze (Wireless Africa, Meraka Institute, South Africa), CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wireless_mesh_network_diagram.jpg"><img width="512" alt="Wireless mesh network diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wireless_mesh_network_diagram.jpg/512px-Wireless_mesh_network_diagram.jpg"></a>
+
+---
+
+class: center, middle
+
+# NIC
+
+<a title="Pratyeka, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:12_early_PC_network_cards.jpg"><img width="512" alt="12 early PC network cards" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/12_early_PC_network_cards.jpg/512px-12_early_PC_network_cards.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Marcus Wong Wongm, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:USB-wireless-adapter.jpg"><img width="512" alt="USB-wireless-adapter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/USB-wireless-adapter.jpg/512px-USB-wireless-adapter.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Xbox-360-WiFi-Adapter-Original.jpg"><img width="512" alt="Xbox-360-WiFi-Adapter-Original" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Xbox-360-WiFi-Adapter-Original.jpg/512px-Xbox-360-WiFi-Adapter-Original.jpg"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# wireless networking and security
+
+---
+
+class: center, middle
+
+# service set identifier (SSID)
+
+---
+
+class: center, middle
+
+# access point placement
+
+---
+
+class: center, middle
+
+# MAC address filtering
+
+---
+
+class: center, middle
+
+# wireless security protocols
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# wireless networking standards
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="512" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/512px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Original:  Penubag Vector:  Victor Blacus, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Electromagnetic-Spectrum.svg"><img width="256" alt="Electromagnetic-Spectrum" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Electromagnetic-Spectrum.svg/256px-Electromagnetic-Spectrum.svg.png"></a>
+
+---
+
+class: center, middle
+
+# IEEE 802.11 wireless Ethernet standard, aka Wi-Fi
+
+---
+
+class: center, middle
+
+<a title="WI-FI_Range_Diagram.png: robo56 (talk)
+The original uploader was Robo56 at English Wikipedia.
+
+derivative work: B. Jankuloski, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:WI-FI_Range_Diagram.svg"><img width="512" alt="WI-FI Range Diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/WI-FI_Range_Diagram.svg/512px-WI-FI_Range_Diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+# Infrared Data Association (IrDA)
+
+---
+
+class: center, middle
+
+<a title="Syced, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Media_insertion_interface_for_printing_at_Japanese_convenience_store.jpg"><img width="512" alt="Media insertion interface for printing at Japanese convenience store" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Media_insertion_interface_for_printing_at_Japanese_convenience_store.jpg/512px-Media_insertion_interface_for_printing_at_Japanese_convenience_store.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Irda.jpg"><img width="256" alt="Irda" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Irda.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="No machine-readable author provided. Museo8bits assumed (based on copyright claims)., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Palm_m100.jpg"><img width="512" alt="Palm m100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Palm_m100.jpg/512px-Palm_m100.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Kt38138, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:BlackBerry_8820,_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg"><img width="512" alt="BlackBerry 8820, BlackBerry Bold 9900 and BlackBerry Classic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/BlackBerry_8820%2C_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg/512px-BlackBerry_8820%2C_BlackBerry_Bold_9900_and_BlackBerry_Classic.jpg"></a>
+
+---
+
+class: center, middle
+
+# Bluetooth
+
+---
+
+class: center, middle
+
+<a title="The original uploader was J.smith at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cell-Tower.jpg"><img width="256" alt="Cell-Tower" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cell-Tower.jpg/256px-Cell-Tower.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="User:uj020288, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tethering.jpg"><img width="512" alt="Tethering" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tethering.jpg/512px-Tethering.jpg"></a>
+
+
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
