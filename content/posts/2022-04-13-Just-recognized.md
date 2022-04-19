@@ -1,0 +1,1 @@
++++draft = falsedate = 2022-04-13T15:25:06-04:00title = "Just recognized a song playing on (Swiss) radio as being from Eurovision 2021, and that makes me happy."slug = "2022-04-13-Just-recognized"tags = []categories = ["micro"]+++Just recognized a song playing on (Swiss) radio as being from Eurovision 2021, and that makes me happy.
