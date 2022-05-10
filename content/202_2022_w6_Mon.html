@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 6.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 8: Mass Storage Technologies </h2>
+<h2 style=color:white>14 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 8: Mass Storage Technologies (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 9: Implementing Mass Storage (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on data storage in fiction (by Thursday)
+* resize the Raspberry Pi boot partition (by Sunday)
+
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 8: Mass Storage Technologies
+
+---
+
+class: center, middle
+
+# what's the most valuable part of your computer?
+
+---
+
+class: center, middle
+
+# "Ask experienced techs... and they'll answer in the same way: 'It's the data."
+
+(Meyers, 2019, p. 304)
+
+---
+
+class: center, middle
+
+# "You can replace any single part of your PC for a few hundred dollars at most, but... I know of two small companies that went out of business just because they lost a hard drive full of data"
+
+(Meyers, 2019, p. 304)
+
+---
+
+class: center, middle
+
+# what are examples of expensive data? where are they stored?
+
+---
+background-color: gray
+
+class: center, middle
+
+# hard disk drives
+
+---
+
+class: center, middle
+
+<a title="FozzTexx, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Apple_II_typical_configuration_1977.png"><img width="512" alt="Apple II typical configuration 1977" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apple_II_typical_configuration_1977.png/512px-Apple_II_typical_configuration_1977.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Nikolas S. Kjoliev, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Mikrokazeta_zna%C4%8Dky_Panasonic.JPG"><img width="512" alt="Mikrokazeta značky Panasonic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikrokazeta_zna%C4%8Dky_Panasonic.JPG/512px-Mikrokazeta_zna%C4%8Dky_Panasonic.JPG"></a>
+
+---
+
+class: center, middle
+
+<a title="Honza Groh, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Inside_of_VHS.jpg"><img width="512" alt="Inside of VHS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Inside_of_VHS.jpg/512px-Inside_of_VHS.jpg"></a>
+---
+
+class: center, middle
+
+<a title="George Chernilevsky, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Floppy_disk_2009_G1.jpg"><img width="512" alt="Floppy disk 2009 G1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/512px-Floppy_disk_2009_G1.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Bobulous, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Back_of_floppy_disk_with_transparent_case.jpg"><img width="512" alt="Back of floppy disk with transparent case" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Back_of_floppy_disk_with_transparent_case.jpg/512px-Back_of_floppy_disk_with_transparent_case.jpg"></a>
+
+
+---
+
+class: center, middle
+
+<a title="Ab11, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:3.5FD_disk.jpg"><img width="512" alt="3.5FD disk" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/3.5FD_disk.jpg/512px-3.5FD_disk.jpg"></a>
+
+---
+
+
+class: center, middle
+<a title="Fastfission, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Floppy_disk_internal_diagram.svg"><img width="256" alt="Floppy disk internal diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Floppy_disk_internal_diagram.svg/256px-Floppy_disk_internal_diagram.svg.png"></a>
+---
+
+
+class: center, middle
+
+<a title="Matesy GmbH, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Visualization_of_magnetic_information_on_a_Floppy_Disk_(CMOS-MagView).jpg"><img width="512" alt="Visualization of magnetic information on a Floppy Disk (CMOS-MagView)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Visualization_of_magnetic_information_on_a_Floppy_Disk_%28CMOS-MagView%29.jpg/512px-Visualization_of_magnetic_information_on_a_Floppy_Disk_%28CMOS-MagView%29.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:Citizen_W1D-9364_-_read_write_head-4005.jpg"><img width="512" alt="Citizen W1D-9364 - read write head-4005" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Citizen_W1D-9364_-_read_write_head-4005.jpg/512px-Citizen_W1D-9364_-_read_write_head-4005.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Antoine Taveneaux, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Lecteur_de_disquette_2.jpg"><img width="512" alt="Lecteur de disquette 2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Lecteur_de_disquette_2.jpg/512px-Lecteur_de_disquette_2.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Evan-Amos, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Laptop-hard-drive-exposed.jpg"><img width="512" alt="Laptop-hard-drive-exposed" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/512px-Laptop-hard-drive-exposed.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Eric Gaba, Wikimedia Commons user Sting, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_inner_view.jpg"><img width="512" alt="Seagate ST33232A hard disk inner view" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Seagate_ST33232A_hard_disk_inner_view.jpg/512px-Seagate_ST33232A_hard_disk_inner_view.jpg"></a>
+
+---
+
+class: center, middle
+
+# what's the difference between a *floppy* disk and a *hard* disk?
+
+---
+
+class: center, middle 
+
+<a title="I, Surachit, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hard_drive-en.svg"><img width="512" alt="Hard drive-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hard_drive-en.svg/512px-Hard_drive-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+# what parts of this hardware might determine better vs. worse hard drives? 
+
+---
+
+class: center, middle
+
+# spindle speed; faster is better, but...
+
+---
+
+class: center, middle
+
+# more platters = more data
+
+---
+
+class: center, middle
+
+# areal density = more data per unit of space
+
+---
+
+class: center, middle
+
+<a title="Heron2/MistWiz, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Disk-structure2.svg"><img width="512" alt="Disk-structure2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Disk-structure2.svg/512px-Disk-structure2.svg.png"></a>
+
+---
+background-color: gray
+
+class: center, middle
+
+# solid-state drives
+
+---
+
+class: center, middle
+
+### RAM vs. BIOS
+
+<a title="ComputerMemoryHierarchy.png: User:Danlash at en.wikipedia.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ComputerMemoryHierarchy.svg"><img width="512" alt="ComputerMemoryHierarchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ComputerMemoryHierarchy.svg/512px-ComputerMemoryHierarchy.svg.png"></a>
+
+---
+
+class: center, middle
+
+# what is the mass storage device on your Raspberry Pi?
+
+---
+
+class: center, middle
+
+<a title="Original:  毛抜きDerivative work:  Tkgd2007, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SD_Cards.svg"><img width="256" alt="SD Cards" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SD_Cards.svg/256px-SD_Cards.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:1_GB_SD_card,_board-1024.jpg"><img width="256" alt="1 GB SD card, board-1024" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/1_GB_SD_card%2C_board-1024.jpg/256px-1_GB_SD_card%2C_board-1024.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg"><img width="512" alt="SanDisk-Cruzer-USB-4GB-ThumbDrive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg/512px-SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg"></a>
+
+---
+
+class: center, middle 
+
+<a title="Nrbelex, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:USB_flash_drive.JPG"><img width="512" alt="USB flash drive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/USB_flash_drive.JPG/512px-USB_flash_drive.JPG"></a>
+
+---
+
+class: center, middle
+
+<a title="Bretwa, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg"><img width="256" alt="SSD Samsung 960 PRO 512GB - front and back - 2018-05-27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg/256px-SSD_Samsung_960_PRO_512GB_-_front_and_back_-_2018-05-27.jpg"></a>
+
+---
+
+# SSD performance variables
+
+--
+
+* throughput: "rates at which it can read and write long sequences of data"
+
+--
+
+* random read/write performance: "how many times per second a device can read or write small, fixed-size chunks of data at random locations"
+
+--
+
+* latency: "how quickly it responds to a single request"
+
+---
+
+class: center, middle
+
+# SSD vs. HDD
+
+---
+
+class: center, middle
+
+<a title="ComputerMemoryHierarchy.png: User:Danlash at en.wikipedia.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ComputerMemoryHierarchy.svg"><img width="512" alt="ComputerMemoryHierarchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ComputerMemoryHierarchy.svg/512px-ComputerMemoryHierarchy.svg.png"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# RAID
+
+---
+
+class: center, middle
+
+# Redundant Array of Independent (or Inexpensive) Disks)
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_0.svg"><img width="256" alt="RAID 0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/256px-RAID_0.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_1.svg"><img width="256" alt="RAID 1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RAID_1.svg/256px-RAID_1.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_5.svg"><img width="512" alt="RAID 5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/RAID_5.svg/512px-RAID_5.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_6.svg"><img width="512" alt="RAID 6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RAID_6.svg/512px-RAID_6.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="NudelSuppe, basierend auf RAID 01 von Cburnett, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_10_01.svg"><img width="512" alt="RAID 10 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/RAID_10_01.svg/512px-RAID_10_01.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Wheart, based on image File:RAID 0.svg by Cburnett, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_01.svg"><img width="512" alt="RAID 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RAID_01.svg/512px-RAID_01.svg.png"></a>
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

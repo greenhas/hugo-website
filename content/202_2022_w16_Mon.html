@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 16.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 22: Virtualization</h2>
+<h2 style=color:white>25 Apr 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# next week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 22: Virtualization (before Monday lecture)
+* take quiz (by Monday)
+
+## Wednesday: reflection and application
+
+* reflect on the social power of cloud computing companies (by Tuesday)
+* virtualize an OS on your Raspberry Pi (by Wednesday-ish)
+
+## Thursday and Friday: reading days
+
+* no class
+
+---
+
+class: center, middle
+
+# Coffee and Cookies at Finals!
+
+## Monday, 25 April, 10am-3pm, 9 Blazer Dining
+
+---
+
+class: center, middle
+
+# CI Graduation Celebration
+
+## Tuesday, 26 April, 2pm-4pm, 3rd floor LCLI
+
+---
+
+class: center, middle
+
+# Teacher Course Evaluations
+
+## evaluate.uky.edu/blue
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# final exam
+
+---
+
+class: center, middle
+
+# 15 points
+
+# 60 questions
+
+# 120 minutes
+
+---
+
+# 20 questions from first half of course
+
+* ## 13 questions from 13 Modules 1-7 chapter readings (same question banks as quizzes/midterm)
+* ## 7 application questions from Modules 1-7 (same question banks as midterm)
+
+---
+
+# 40 questions from second half of course
+
+* ## 30 questions from 15 Modules 8-16 chapter readings (same as textbook practice questions)
+* ## 10 application questions
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 22: Virtualization
+
+---
+
+class: center, middle
+
+# virtualization
+
+---
+
+class: center, middle
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="400" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="512" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/512px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="ComputerMemoryHierarchy.png: User:Danlash at en.wikipedia.org, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ComputerMemoryHierarchy.svg"><img width="512" alt="ComputerMemoryHierarchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ComputerMemoryHierarchy.svg/512px-ComputerMemoryHierarchy.svg.png"></a>
+
+---
+
+class: center, middle
+
+# virtualization vs. emulation
+
+---
+
+class: center, middle
+
+# what hardware do we need to simulate hardware?
+
+---
+
+class: center, middle
+
+## RAM
+
+---
+
+class: center, middle
+
+## storage
+
+---
+
+class: center, middle
+
+## networking?
+
+---
+
+class: center, middle
+
+# CPU
+
+---
+
+class: center, middle
+
+# the hypervisor
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="512" alt="Hyperviseur" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/512px-Hyperviseur.svg.png"></a>
+
+---
+
+# benefits of virtualization
+
+--
+
+* ## hardware consolidation
+
+--
+
+* ## power saving
+
+--
+
+* ## system management and security
+
+--
+
+* ## research
+
+---
+
+class: center, middle
+
+# cloud computing
+
+---
+
+class: center, middle
+
+# `XaaS`
+
+---
+
+class: center, middle
+
+# Software as a Service: `SaaS`
+
+---
+
+class: center, middle
+
+# Google Workspaces
+
+---
+
+class: center, middle
+
+# SaaS vs. cloud computing
+
+---
+
+class: center, middle
+
+# cloud-based apps vs. SaaS
+
+---
+
+class: center, middle
+
+# Platform as a Service: `PaaS`
+
+---
+
+class: center, middle
+
+# Netlify
+
+---
+
+class: center, middle
+
+# Infrastructure as a Service: `IaaS`
+
+---
+
+class: center, middle
+
+# Amazon Web Services
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="512" alt="Hyperviseur" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/512px-Hyperviseur.svg.png"></a>
+
+---
+
+class: center, middle
+
+# different types of cloud
+
+---
+
+class: center, middle
+
+# public cloud
+
+---
+
+class: center, middle
+
+# private cloud
+
+---
+
+class: center, middle
+
+# community cloud
+
+---
+
+class: center, middle
+
+# hybrid cloud
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

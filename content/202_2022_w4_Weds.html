@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 4.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>read A+, Chapter 4: RAM</h2>
+<h2 style=color:white>2 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# Angelo B. Henderson Lecture Series
+
+## Surviving Deep Waters (featuring WUSA-TV anchor and author Bruce Johnson)
+
+## Thursday, 10 February, 5pm to 6:30pm
+
+## W.T. Young Auditorium
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 3: CPUs (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 4: RAM (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on technical constraints and culture (by Thursday)
+* look into Raspberry Pi CPU (by Sunday)
+
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 4: RAM
+
+---
+
+class: center, middle
+
+# what general process do all computers follow? 
+
+---
+
+class: center, middle
+
+# input
+# processing
+# output
+# (storage)
+# (networking)
+
+---
+
+class: center, middle
+
+# what is the CPU pipeline?
+
+---
+
+class: center, middle
+
+# fetch
+# decode
+# execute
+# write
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# what's not pictured here?
+
+---
+
+class: center, middle
+
+# registers
+
+# system crystal & clock chip
+
+---
+
+class: center, middle
+
+# let's count to ten in binary
+
+---
+
+class: center, middle
+
+# `0000`
+
+---
+
+class: center, middle
+
+# `0001`
+
+---
+
+class: center, middle
+
+# `0010`
+
+---
+
+class: center, middle
+
+# `0011`
+
+---
+
+class: center, middle
+
+# `0100`
+
+---
+
+class: center, middle
+
+# `0101`
+
+---
+
+class: center, middle
+
+# `0110`
+
+---
+
+class: center, middle
+
+# `0111`
+
+---
+
+class: center, middle
+
+# `1000`
+
+---
+
+class: center, middle
+
+# `1001`
+
+---
+
+class: center, middle
+
+# `1010`
+
+---
+
+class: center, middle
+
+# why do I include the "empty" digits? 
+
+# in base 10, we (usually) leave out leading 0s
+
+# `0010`, but not `0002` 
+
+---
+
+class: center, middle
+
+# nibbles and bytes
+
+---
+
+class: center, middle
+
+# data bus
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# why do we need a way to hold data in a computer?
+
+---
+
+class: center, middle
+
+# what are some of the different purposes of data in a computer?
+
+# what's most important about those different purposes?
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+# volatile vs. non-volatile memory
+
+---
+
+class: center, middle
+
+# dynamic RAM
+
+---
+
+class: center, middle
+
+<a title="Karl Baron, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ryoan-ji_fire_buckets_(2448046749).jpg"><img width="500" alt="Ryoan-ji fire buckets (2448046749)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ryoan-ji_fire_buckets_%282448046749%29.jpg/1024px-Ryoan-ji_fire_buckets_%282448046749%29.jpg"></a>
+---
+
+class: center, middle
+
+# memory refresh circuit
+
+---
+
+class: center, middle
+
+# static RAM
+
+---
+
+class: center, middle
+
+# when is volatile memory acceptable? when is it not acceptable?
+
+---
+
+class: center, middle
+
+# when is faster-but-more expensive acceptable? when is it not?
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+# virtual memory
+
+---
+
+class: center, middle
+
+<a title="Ehamberg, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Virtual_memory.svg"><img width="256" alt="Virtual memory" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Virtual_memory.svg/256px-Virtual_memory.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Timothygetsschooled at English Wikipedia, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dorm_room,_Alumni_Hall_(University_of_Windsor,_Ontario).jpg"><img width="512" alt="Dorm room, Alumni Hall (University of Windsor, Ontario)" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Dorm_room%2C_Alumni_Hall_%28University_of_Windsor%2C_Ontario%29.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="JMORGANSELFSTOR, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bermondsey_Climate_Controlled_unit.jpg"><img width="600" alt="Bermondsey Climate Controlled unit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bermondsey_Climate_Controlled_unit.jpg/1024px-Bermondsey_Climate_Controlled_unit.jpg"></a>
+
+---
+
+class: center, middle
+
+# thrashing
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

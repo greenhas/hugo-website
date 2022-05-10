@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 13.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 19: Local Area Networking</h2>
+<h2 style=color:white>6 Apr 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 18: Essentials of Networking (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 19: Local Area Networking (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on benefits and downsides of networks (by Thursday)
+* access the command line of your Raspberry Pi over a network (by Sunday)
+
+---
+
+class: center, middle
+
+# [SEC and ACC Virtual Career Fair](https://www.careereco.com/Fair/EventDetails?fairId=5cc8baa9-c5ce-4d09-a7a1-ade5012d52ed)
+
+## 6 April 2022, 10am - 5pm Eastern
+
+---
+
+class: center, middle
+
+# [Accenture: Meet UK Alums Event](https://uky.joinhandshake.com/events/1014632/share_preview)
+
+## 13 April 2022, 4pm - 5pm Eastern
+
+---
+
+class: center, middle
+
+# check your grades!
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# more networking essentials
+
+---
+
+class: center, middle
+
+# Ethernet
+
+---
+
+class: center, middle
+
+<a title="Someone&#039;s Moving Castle, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ethernet_Connection.jpg"><img width="512" alt="Ethernet Connection" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ethernet_Connection.jpg/512px-Ethernet_Connection.jpg"></a>
+
+---
+
+class: center, middle
+
+## hub
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/4_port_netgear_ethernet_hub.jpg">
+
+---
+
+class: center, middle
+
+## switch
+
+<a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/512px-2550T-PWR-Front.jpg"></a>
+
+---
+
+class: center, middle
+
+## star network topology
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="512" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+## bus network topology
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:BusNetwork.svg"><img width="512" alt="BusNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BusNetwork.svg/512px-BusNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+## unshielded twisted pair (UTP) cable
+
+<a title="Jon &#039;ShakataGaNai&#039; Davis, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Network_switches.jpg"><img width="512" alt="Network switches" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Network_switches.jpg/512px-Network_switches.jpg"></a>
+
+---
+
+class: center, middle
+
+# "A *local area network (LAN)* is a grou pof computers located physically close to each other."
+
+(Meyers, 2019, p. 816)
+
+---
+
+class: center, middle
+
+# "a LAN is almost always a group of computers that are able to 'hear' each other when one of them sends a broadcast"
+
+(Meyers, 2019, p. 816)
+
+---
+
+class: center, middle
+
+# unicast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Unicast.svg" width = "600">
+
+---
+
+class: center, middle
+
+# multicast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Multicast.svg" width = "600">
+
+---
+
+class: center, middle
+
+# broadcast
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "600">
+
+---
+
+class: center, middle
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Broadcast.svg" width = "200">
+
+---
+
+class: center, middle
+
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+<a title="Tmthetom, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Modem-and-router-units.jpg"><img width="200" alt="Modem-and-router-units" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Modem-and-router-units.jpg"></a>
+<a title="GW_Simulations, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:StarNetwork.svg"><img width="200" alt="StarNetwork" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/512px-StarNetwork.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "You can connect multiple smaller networks into a bigger network, turning a group of LANs into one big WAN, but this raises a couple of issues with network traffic"
+
+(Meyers, 2019, p. 830)
+
+---
+
+class: center, middle
+
+# "A computer needs some form of powerful, flexible addressing"
+
+(Meyers, 2019, p. 830)
+
+---
+
+class: center, middle
+
+# "Broadcasting is also unacceptable, at least between LANs"
+
+(Meyers, 2019, p. 830)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 19: Local Area Networking
+
+---
+
+class: center, middle
+
+# Ethernet
+
+---
+
+class: center, middle
+
+# "Ethernet alone isn't enough to make a complete network; many other functions need to be handled."
+
+(Meyers, 2019, p. 834)
+
+---
+
+class: center, middle
+
+# frame size
+
+---
+
+class: center, middle
+
+# changing MAC addresses
+
+---
+
+class: center, middle
+
+<a title="SRI International, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SRI_First_Internetworked_Connection_diagram.jpg"><img width="600" alt="SRI First Internetworked Connection diagram" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/SRI_First_Internetworked_Connection_diagram.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IP_stack_connections.svg"><img width="500" alt="IP stack connections" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/IP_stack_connections.svg/512px-IP_stack_connections.svg.png"></a>
+
+---
+
+class: center, middle
+
+# TCP/IP
+
+---
+
+class: center, middle
+
+## `NICOLE MARTIN`
+## `123 SHERBROOKE ST`
+## `TORONTO ON L3R 9P6`
+
+---
+
+class: center, middle
+
+# MAC address ~ name w/o rest of address
+
+---
+
+class: center, middle
+
+# "Any network address must... uniquely identify the machine and it must locate that machine within the larger network."
+
+(Meyers, 2019, p. 834)
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_address_structure_and_writing_systems-en.svg"><img width="512" alt="IPv4 address structure and writing systems-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IPv4_address_structure_and_writing_systems-en.svg/512px-IPv4_address_structure_and_writing_systems-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+# IP address: 192.168.4.33
+# subnet mask: 255.255.255.0
+# network ID: 192.168.4
+# host ID: 33
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_address_structure_and_writing_systems-en.svg"><img width="512" alt="IPv4 address structure and writing systems-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/IPv4_address_structure_and_writing_systems-en.svg/512px-IPv4_address_structure_and_writing_systems-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Tmthetom, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Modem-and-router-units.jpg"><img width="500" alt="Modem-and-router-units" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Modem-and-router-units.jpg"></a>
+
+---
+
+class: center, middle
+
+# `2^32 = 4,294,967,296 ~ 4.3 billion`
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_exhaustion_time_line-en.svg"><img width="512" alt="IPv4 exhaustion time line-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/IPv4_exhaustion_time_line-en.svg/512px-IPv4_exhaustion_time_line-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv6_address_terminology-en.svg"><img width="512" alt="IPv6 address terminology-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IPv6_address_terminology-en.svg/512px-IPv6_address_terminology-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+# `2^128 ~ 3.4 x 10^38`
+
+---
+
+class: center, middle
+
+### `2001:0000:0000:3210:0800:200c:00cf:1234`
+
+---
+
+class: center, middle
+
+## drop leading zeroes from any group
+
+### `2001:0000:0000:3210:0800:200c:00cf:1234`
+
+---
+
+class: center, middle
+
+## drop leading zeroes from any group
+
+### `2001:0000:0000:3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+## ONLY ONCE, remove one or more consecutive groups of zeroes, leaving double colons
+
+### `2001:0000:0000:3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+## ONLY ONCE, remove one or more consecutive groups of zeroes, leaving double colons
+
+### `2001::3210:800:200c:cf:1234`
+
+---
+
+class: center, middle
+
+# `128.163.35.46`
+
+---
+
+class: center, middle
+
+<img src="https://assets.amuniversal.com/bafa1d207c540134e224005056a9545d" width = "800">
+
+---
+
+class: center, middle
+
+# the Domain Name System
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

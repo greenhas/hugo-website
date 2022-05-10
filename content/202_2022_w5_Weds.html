@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 5.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 6: Motherboards</h2>
+<h2 style=color:white>9 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# Angelo B. Henderson Lecture Series
+
+## Surviving Deep Waters (featuring WUSA-TV anchor and author Bruce Johnson)
+
+## Thursday, 10 February, 5pm to 6:30pm
+
+## W.T. Young Auditorium
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 5: Firmware (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 6: Motherboards (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on technology and power (by Thursday)
+* label your Raspberry Pi motherboard (by Sunday)
+
+---
+
+class: center, middle
+
+## input, processing, output, (storage), (networking)
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## how do these different pieces of hardware communicate with each other?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "Every piece of hardware, from the CPU to the lowliest expansion card, directly or indirectly plugs into the motherboard." 
+
+## (Meyers, 2019, p. 205)
+
+---
+class: center, middle
+
+# why mother"board"?
+
+---
+
+class: center, middle
+
+# printed circuit board
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg"><img width="512" alt="SEG DVD 430 - Printed circuit board-4276" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/SEG_DVD_430_-_Printed_circuit_board-4276.jpg/512px-SEG_DVD_430_-_Printed_circuit_board-4276.jpg"></a>
+
+---
+class: center, middle
+
+# is a "board" necessary?
+
+---
+
+class: center, middle
+
+### point-to-point construction
+<a title="Westernelectric555, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motorolagoldenviewchassis.jpg"><img width="450" alt="Motorolagoldenviewchassis" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Motorolagoldenviewchassis.jpg/512px-Motorolagoldenviewchassis.jpg"></a>
+
+---
+
+class: center, middle
+### wire wrap
+<a title="ETH Library, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SDS_930.jpg"><img width="650" alt="SDS 930" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/SDS_930.jpg/1024px-SDS_930.jpg"></a>
+
+---
+
+class: center, middle
+### wire wrap
+<a title="Wikinaut, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Computerplatine_Wire-wrap_backplane_detail_Z80_Doppel-Europa-Format_1977.jpg"><img width="512" alt="Computerplatine Wire-wrap backplane detail Z80 Doppel-Europa-Format 1977" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Computerplatine_Wire-wrap_backplane_detail_Z80_Doppel-Europa-Format_1977.jpg/512px-Computerplatine_Wire-wrap_backplane_detail_Z80_Doppel-Europa-Format_1977.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg"><img width="512" alt="SEG DVD 430 - Printed circuit board-4276" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/SEG_DVD_430_-_Printed_circuit_board-4276.jpg/512px-SEG_DVD_430_-_Printed_circuit_board-4276.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Ulfbastel, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dldklpcb.jpg"><img width="512" alt="Dldklpcb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Dldklpcb.jpg/512px-Dldklpcb.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="VIA Gallery from Hsintien, Taiwan, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:VIA_Mini-ITX_Form_Factor_Comparison.jpg"><img width="800" alt="VIA Mini-ITX Form Factor Comparison" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIA_Mini-ITX_Form_Factor_Comparison.jpg/1024px-VIA_Mini-ITX_Form_Factor_Comparison.jpg"></a>
+---
+
+class: center, middle
+
+# how do we define computer in this class?
+
+---
+
+class: center, middle
+
+# what meets that definition of "computer"?
+
+---
+class: center, middle 
+
+# what is this motherboard from?
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Motherboard-Bottom.jpg"><img width="512" alt="Nintendo-DS-Lite-Motherboard-Bottom" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nintendo-DS-Lite-Motherboard-Bottom.jpg/512px-Nintendo-DS-Lite-Motherboard-Bottom.jpg"></a>
+
+---
+
+class: center, middle
+
+# what is this motherboard from?
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro,_model_A1278_-_motherboard-8387.jpg"><img width="512" alt="Apple MacBook Pro, model A1278 - motherboard-8387" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apple_MacBook_Pro%2C_model_A1278_-_motherboard-8387.jpg/512px-Apple_MacBook_Pro%2C_model_A1278_-_motherboard-8387.jpg"></a>
+
+---
+class: center, middle 
+
+# how old is this motherboard?
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro,_model_A1278_-_motherboard-8387.jpg"><img width="512" alt="Apple MacBook Pro, model A1278 - motherboard-8387" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apple_MacBook_Pro%2C_model_A1278_-_motherboard-8387.jpg/512px-Apple_MacBook_Pro%2C_model_A1278_-_motherboard-8387.jpg"></a>
+
+---
+class: center, middle
+
+# what is this motherboard from?
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Nintendo-N64-Motherboard-Bottom.jpg"><img width="512" alt="Nintendo-N64-Motherboard-Bottom" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Nintendo-N64-Motherboard-Bottom.jpg/512px-Nintendo-N64-Motherboard-Bottom.jpg"></a>
+
+---
+class: center, middle
+
+# what is this motherboard from?
+
+<a title="© Raimond Spekking" href="https://commons.wikimedia.org/wiki/File:Motorola_Xoom_-_main_board-0119.jpg"><img width="512" alt="Motorola Xoom - main board-0119" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Motorola_Xoom_-_main_board-0119.jpg/512px-Motorola_Xoom_-_main_board-0119.jpg"></a>
+
+---
+class: center, middle 
+
+<a title="Vera de Kok, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Nokia_N79_internal3.JPG"><img width="512" alt="Nokia N79 internal3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Nokia_N79_internal3.JPG/512px-Nokia_N79_internal3.JPG"></a>
+
+---
+
+class: center, middle
+
+# why "mother"board?
+
+---
+
+class: center, middle
+
+<a title="Marcin Wieclaw (pcsite.co.uk), CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Computer-motherboard.jpg"><img width="512" alt="Computer-motherboard" src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Computer-motherboard.jpg"></a>
+
+---
+class: center, middle
+
+# daughterboard
+
+<a title="The original uploader was Swaaye at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Roland_SCB-55_on_Diamond_MX300.jpg"><img width="512" alt="Roland SCB-55 on Diamond MX300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Roland_SCB-55_on_Diamond_MX300.jpg/512px-Roland_SCB-55_on_Diamond_MX300.jpg"></a>
+
+---
+class: center, middle 
+
+# ports
+
+<a title="Laserlicht / Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Side.jpg"><img width="512" alt="Raspberry Pi 4 Model B - Side" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/512px-Raspberry_Pi_4_Model_B_-_Side.jpg"></a>
+
+---
+
+class: center, middle
+
+# expansion slots
+
+<a title="I, Jonathan Zander, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:PCI_Slots_Digon3.JPG"><img width="512" alt="PCI Slots Digon3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/PCI_Slots_Digon3.JPG/512px-PCI_Slots_Digon3.JPG"></a>
+
+---
+
+class: center, middle
+
+# chipset
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="256" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/256px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+## the boot process
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="256" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/256px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+# firmware and Raspberry Pi in the news!
+
+---
+
+class: center, middle
+
+# "Setting up a Raspberry Pi board has always required a second computer, which is used to flash your operating system of choice to an SD card so your Pi can boot."
+
+Cunningham, A. (2022, February 8). Raspbery Pi bootloader enables OS installs with no separate PC required. 
+
+---
+
+class: center, middle
+
+# "But the Pi Foundation is working on a new version of its bootloader that could connect an OS-less Pi board directly to the Internet, allowing it to download and install the official Raspberry Pi OS to a blank SD card without requiring another computer."
+
+Cunningham, A. (2022, February 8). Raspbery Pi bootloader enables OS installs with no separate PC required. 
+
+---
+
+class: center, middle
+
+# how does this relate to firmware?
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
